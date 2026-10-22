@@ -1,0 +1,5 @@
+malecns: ham tablo 176,422; Traced 165,122
+malecns superclass (ham -> sayılar): {'ol_intrinsic': 89390, 'cb_intrinsic': 32160, 'vnc_intrinsic': 13151, 'visual_projection': 9201, 'vnc_sensory': 6365, 'cb_sensory': 4868, 'ol_sensory': 4114, 'ascending_neuron': 1846, 'descending_neuron': 1314, 'vnc_motor': 708, 'visual_centrifugal': 563, 'sensory_ascending': 537, None: 516, 'cb_motor': 107, 'vnc_efferent': 94, 'cb_endocrine': 72, 'ENS': 47, 'vnc_endocrine': 22, 'sensory_descending': 12, 'vnc_sensory_tbc': 9, 'efferent_ascending': 8, 'cb_sensory_tbc': 5, 'efferent_descending': 4, 'cb_efferent': 4, 'visual_projection_tbc': 2, 'sensory_ascending_tbc': 2, 'vnc_tbc': 1}
+malecns neurons (interim): 165,122 satır; side: {'right': 82738, 'left': 81362, 'unknown': 630, 'center': 392}; super_class unknown: 13,715
+[build] malecns_neurons_v1.0_traced-interim.parquet: 165,122 satır üretildi (1.3 sn, 3.3 MB)
+ADIM0 malecns nöron (Traced, interim): 165,122

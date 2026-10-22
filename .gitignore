@@ -1,0 +1,15 @@
+# Data stays out of git (Data Conventions: cache in .gitignore)
+data/
+eski/
+*.parquet
+*.csv.gz
+
+# Environment and secrets (tokens never in the repo)
+.venv/
+.env
+*.token
+
+# Python / Jupyter clutter
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/

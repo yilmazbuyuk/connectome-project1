@@ -1,0 +1,596 @@
+{
+ "malecns_all": 165122,
+ "malecns_in_brain": 144757,
+ "fafb_n": 139262,
+ "malecns_n": 144757,
+ "A1_fafb_superclass_central_celltype_pct": 99.6,
+ "A1_fafb_superclass_central_cellclass_pct": 32.2,
+ "A1_table": [
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "cell_type",
+   "n": 139262,
+   "labelled_pct": 98.9
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "cell_class",
+   "n": 139262,
+   "labelled_pct": 77.2
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "cell_sub_class",
+   "n": 139262,
+   "labelled_pct": 18.5
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "super_class",
+   "n": 139262,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "nt_type",
+   "n": 139262,
+   "labelled_pct": 99.6
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "hemilineage",
+   "n": 139262,
+   "labelled_pct": 27.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "side",
+   "n": 139262,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "dimorphism",
+   "n": 139262,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "all",
+   "column": "hemibrain_type",
+   "n": 139262,
+   "labelled_pct": 23.9
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "cell_type",
+   "n": 44494,
+   "labelled_pct": 97.9
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "cell_class",
+   "n": 44494,
+   "labelled_pct": 43.5
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "cell_sub_class",
+   "n": 44494,
+   "labelled_pct": 29.9
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "super_class",
+   "n": 44494,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "nt_type",
+   "n": 44494,
+   "labelled_pct": 99.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "hemilineage",
+   "n": 44494,
+   "labelled_pct": 78.1
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "side",
+   "n": 44494,
+   "labelled_pct": 99.9
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "dimorphism",
+   "n": 44494,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "central",
+   "column": "hemibrain_type",
+   "n": 44494,
+   "labelled_pct": 62.3
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "cell_type",
+   "n": 94768,
+   "labelled_pct": 99.3
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "cell_class",
+   "n": 94768,
+   "labelled_pct": 93.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "cell_sub_class",
+   "n": 94768,
+   "labelled_pct": 13.2
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "super_class",
+   "n": 94768,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "nt_type",
+   "n": 94768,
+   "labelled_pct": 99.8
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "hemilineage",
+   "n": 94768,
+   "labelled_pct": 2.9
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "side",
+   "n": 94768,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "dimorphism",
+   "n": 94768,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "fafb",
+   "population": "optic",
+   "column": "hemibrain_type",
+   "n": 94768,
+   "labelled_pct": 5.8
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "cell_type",
+   "n": 144757,
+   "labelled_pct": 98.9
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "cell_class",
+   "n": 144757,
+   "labelled_pct": 12.6
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "cell_sub_class",
+   "n": 144757,
+   "labelled_pct": 3.2
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "super_class",
+   "n": 144757,
+   "labelled_pct": 99.6
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "nt_type",
+   "n": 144757,
+   "labelled_pct": 91.1
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "hemilineage",
+   "n": 144757,
+   "labelled_pct": 26.1
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "side",
+   "n": 144757,
+   "labelled_pct": 99.6
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "dimorphism",
+   "n": 144757,
+   "labelled_pct": 1.6
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "hemibrain_type",
+   "n": 144757,
+   "labelled_pct": 22.7
+  },
+  {
+   "dataset": "malecns",
+   "population": "all",
+   "column": "flywire_type",
+   "n": 144757,
+   "labelled_pct": 97.5
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "cell_type",
+   "n": 51253,
+   "labelled_pct": 96.9
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "cell_class",
+   "n": 51253,
+   "labelled_pct": 27.4
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "cell_sub_class",
+   "n": 51253,
+   "labelled_pct": 9.1
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "super_class",
+   "n": 51253,
+   "labelled_pct": 98.9
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "nt_type",
+   "n": 51253,
+   "labelled_pct": 93.8
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "hemilineage",
+   "n": 51253,
+   "labelled_pct": 73.4
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "side",
+   "n": 51253,
+   "labelled_pct": 98.8
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "dimorphism",
+   "n": 51253,
+   "labelled_pct": 3.5
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "hemibrain_type",
+   "n": 51253,
+   "labelled_pct": 63.4
+  },
+  {
+   "dataset": "malecns",
+   "population": "central",
+   "column": "flywire_type",
+   "n": 51253,
+   "labelled_pct": 93.6
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "cell_type",
+   "n": 93504,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "cell_class",
+   "n": 93504,
+   "labelled_pct": 4.5
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "cell_sub_class",
+   "n": 93504,
+   "labelled_pct": 0.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "super_class",
+   "n": 93504,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "nt_type",
+   "n": 93504,
+   "labelled_pct": 89.5
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "hemilineage",
+   "n": 93504,
+   "labelled_pct": 0.1
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "side",
+   "n": 93504,
+   "labelled_pct": 100.0
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "dimorphism",
+   "n": 93504,
+   "labelled_pct": 0.5
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "hemibrain_type",
+   "n": 93504,
+   "labelled_pct": 0.4
+  },
+  {
+   "dataset": "malecns",
+   "population": "optic",
+   "column": "flywire_type",
+   "n": 93504,
+   "labelled_pct": 99.6
+  }
+ ],
+ "A2_fafb_optic_pct": 68.1,
+ "A2_fafb_superclass_x_group": {
+  "higher_order": {
+   "ascending": 0.166,
+   "central": 0.817,
+   "descending": 0.111,
+   "endocrine": 0.512,
+   "motor": 0.0,
+   "optic": 0.0,
+   "sensory": 0.0,
+   "unknown": 0.071,
+   "visual_centrifugal": 0.052,
+   "visual_projection": 0.224
+  },
+  "motor_periphery": {
+   "ascending": 0.782,
+   "central": 0.13,
+   "descending": 0.79,
+   "endocrine": 0.288,
+   "motor": 0.864,
+   "optic": 0.0,
+   "sensory": 0.122,
+   "unknown": 0.0,
+   "visual_centrifugal": 0.05,
+   "visual_projection": 0.006
+  },
+  "sensory_periphery": {
+   "ascending": 0.03,
+   "central": 0.053,
+   "descending": 0.096,
+   "endocrine": 0.15,
+   "motor": 0.136,
+   "optic": 1.0,
+   "sensory": 0.845,
+   "unknown": 0.929,
+   "visual_centrifugal": 0.899,
+   "visual_projection": 0.771
+  },
+  "unknown": {
+   "ascending": 0.022,
+   "central": 0.0,
+   "descending": 0.003,
+   "endocrine": 0.05,
+   "motor": 0.0,
+   "optic": 0.0,
+   "sensory": 0.033,
+   "unknown": 0.0,
+   "visual_centrifugal": 0.0,
+   "visual_projection": 0.0
+  }
+ },
+ "A2_fafb_GNG_mix": {
+  "sensory": 0.349,
+  "ascending": 0.279,
+  "visual_projection": 0.0,
+  "visual_centrifugal": 0.0,
+  "central": 0.241,
+  "descending": 0.114,
+  "motor": 0.015,
+  "endocrine": 0.001
+ },
+ "A3_fafb": {
+  "types": 8846,
+  "types_1_2": 4632,
+  "types_gt100": 149,
+  "gt100_optic": 132,
+  "largest": {
+   "R1-6": 8452,
+   "KCg-m": 2189,
+   "T2a": 1772,
+   "Tm3": 1756,
+   "T4c": 1706
+  },
+  "cx_types": 219,
+  "cx_median_size": 5.0
+ },
+ "A3_malecns": {
+  "types": 8638,
+  "types_1_2": 4486,
+  "types_gt100": 167,
+  "gt100_optic": 122,
+  "largest": {
+   "Tm3": 2054,
+   "T3": 1940,
+   "T2a": 1872,
+   "L5": 1787,
+   "C3": 1779
+  },
+  "cx_types": 0,
+  "cx_median_size": null
+ },
+ "A4_fafb": {
+  "1": 8833,
+  "2": 13,
+  "3+": 0
+ },
+ "A4_malecns": {
+  "1": 8637,
+  "2": 1,
+  "3+": 0
+ },
+ "A5_fafb": {
+  "types_with_side": 8788,
+  "off_diagonal_pct": 23.5,
+  "off_diagonal_pct_optic": 47.4,
+  "off_diagonal_pct_central": 21.7,
+  "one_side_only": 123,
+  "paired_neurons": 132604,
+  "unpaired": {
+   "side center": 90,
+   "side unknown": 29,
+   "no cell type": 1542,
+   "unequal counts": 4997
+  }
+ },
+ "A5_malecns": {
+  "types_with_side": 8569,
+  "off_diagonal_pct": 21.4,
+  "off_diagonal_pct_optic": 74.5,
+  "off_diagonal_pct_central": 19.6,
+  "one_side_only": 210,
+  "paired_neurons": 137654,
+  "unpaired": {
+   "side center": 97,
+   "side unknown": 412,
+   "no cell type": 1610,
+   "unequal counts": 4984
+  }
+ },
+ "A6_malecns_flywire_type_with_comma": 2751,
+ "A6_fafb_types": 8846,
+ "A6_fafb_matched_types": 7783,
+ "A6_fafb_neurons_in_matched_pct": 95.0,
+ "A6_by_region_group": {
+  "sensory_periphery": 98.5,
+  "higher_order": 87.4,
+  "motor_periphery": 81.1,
+  "unknown": 88.9
+ },
+ "A6_by_super_class": {
+  "sensory": 96.9,
+  "ascending": 55.5,
+  "optic": 99.2,
+  "visual_projection": 95.4,
+  "visual_centrifugal": 78.2,
+  "central": 87.0,
+  "descending": 96.2,
+  "motor": 90.9,
+  "endocrine": 75.0,
+  "unknown": 0.0
+ },
+ "A7_malecns_dimorphism_labelled": 2300,
+ "A7_fafb_dimorphism_labelled": 1176,
+ "A7_fafb_dimorphism_by_group": {
+  "female-specific": {
+   "sensory_periphery": 2,
+   "higher_order": 252,
+   "motor_periphery": 16
+  },
+  "potentially female-specific": {
+   "sensory_periphery": 8,
+   "higher_order": 74,
+   "motor_periphery": 11
+  },
+  "potentially sexually dimorphic": {
+   "sensory_periphery": 12,
+   "higher_order": 82,
+   "motor_periphery": 67
+  },
+  "sexually dimorphic": {
+   "sensory_periphery": 285,
+   "higher_order": 290,
+   "motor_periphery": 77
+  }
+ },
+ "A7_unmatched_types_by_group": {
+  "sensory_periphery": 84,
+  "higher_order": 726,
+  "motor_periphery": 252,
+  "unknown": 1
+ },
+ "A7_unmatched_types_pct_by_group": {
+  "sensory_periphery": 7.1,
+  "higher_order": 13.4,
+  "motor_periphery": 11.3,
+  "unknown": 25.0
+ }
+}
