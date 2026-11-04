@@ -1,0 +1,138 @@
+{
+ "fafb": {
+  "neurons": 139255,
+  "per_tau": {
+   "5": {
+    "edges": 2700513,
+    "no_input": 14063,
+    "no_output": 9904,
+    "isolated": 5074,
+    "median_in_degree": 9.0
+   },
+   "8": {
+    "edges": 1458505,
+    "no_input": 21911,
+    "no_output": 19849,
+    "isolated": 10102,
+    "median_in_degree": 4.0
+   },
+   "10": {
+    "edges": 1066822,
+    "no_input": 28934,
+    "no_output": 28134,
+    "isolated": 14810,
+    "median_in_degree": 3.0
+   },
+   "15": {
+    "edges": 584895,
+    "no_input": 49280,
+    "no_output": 50678,
+    "isolated": 31188,
+    "median_in_degree": 1.0
+   },
+   "31": {
+    "edges": 165352,
+    "no_input": 99596,
+    "no_output": 99439,
+    "isolated": 83547,
+    "median_in_degree": 0.0
+   },
+   "46": {
+    "edges": 77965,
+    "no_input": 115399,
+    "no_output": 117093,
+    "isolated": 105395,
+    "median_in_degree": 0.0
+   }
+  },
+  "syn_per_edge_tau1": 3.611,
+  "edges_per_neuron_tau1": 108.38
+ },
+ "malecns": {
+  "neurons": 144414,
+  "per_tau": {
+   "5": {
+    "edges": 5143528,
+    "no_input": 3095,
+    "no_output": 3657,
+    "isolated": 601,
+    "median_in_degree": 18.0
+   },
+   "8": {
+    "edges": 2928623,
+    "no_input": 6030,
+    "no_output": 6580,
+    "isolated": 1241,
+    "median_in_degree": 9.0
+   },
+   "10": {
+    "edges": 2190021,
+    "no_input": 9203,
+    "no_output": 9076,
+    "isolated": 2309,
+    "median_in_degree": 6.0
+   },
+   "15": {
+    "edges": 1244247,
+    "no_input": 22203,
+    "no_output": 20616,
+    "isolated": 8639,
+    "median_in_degree": 3.0
+   },
+   "31": {
+    "edges": 391456,
+    "no_input": 75290,
+    "no_output": 70440,
+    "isolated": 50139,
+    "median_in_degree": 0.0
+   },
+   "46": {
+    "edges": 190266,
+    "no_input": 101949,
+    "no_output": 100452,
+    "isolated": 84168,
+    "median_in_degree": 0.0
+   }
+  },
+  "syn_per_edge_tau1": 4.606,
+  "edges_per_neuron_tau1": 150.3
+ },
+ "B2_syn_per_edge_ratio": 1.276,
+ "B2_edges_per_neuron_ratio": 1.387,
+ "malecns_flywire_type_multi": 2749,
+ "malecns_flywire_type_missing": 3275,
+ "B6_matched_type_pairs": 119406,
+ "B6_ratio_median": 1.484,
+ "B6_ratio_total": 1.55,
+ "B6_ratio_iqr": [
+  1.07,
+  2.098
+ ],
+ "fafb_super_class": {
+  "optic": 77537,
+  "central": 32383,
+  "sensory": 16904,
+  "visual_projection": 8038,
+  "ascending": 1750,
+  "descending": 1303,
+  "sensory_ascending": 612,
+  "visual_centrifugal": 524,
+  "motor": 110,
+  "endocrine": 80,
+  "unknown": 14
+ },
+ "malecns_super_class": {
+  "optic": 89388,
+  "central": 32160,
+  "visual_projection": 9202,
+  "sensory": 8918,
+  "ascending": 1841,
+  "descending": 1312,
+  "visual_centrifugal": 563,
+  "sensory_ascending": 534,
+  "unknown": 302,
+  "motor": 107,
+  "endocrine": 71,
+  "efferent": 16
+ }
+}

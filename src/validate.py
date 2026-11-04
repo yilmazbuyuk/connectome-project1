@@ -11,7 +11,7 @@ def _fail(table, check, msg):
     raise ValidationError(f"[{table}] {check}: {msg}")
 
 
-def check_schema(df, schema, table):
+def check_schema(df, schema, table, allow_categorical=()):
     # Columns
     expected = list(schema)
     if list(df.columns) != expected:
@@ -21,8 +21,11 @@ def check_schema(df, schema, table):
     # Dtypes
     for col, (dtype, _) in schema.items():
         want = pd.api.types.pandas_dtype(dtype) if isinstance(dtype, str) else dtype
-        if df[col].dtype != want:
-            _fail(table, "Dtypes", f"{col}: {df[col].dtype} (beklenen {want})")
+        got = df[col].dtype
+        if col in allow_categorical and isinstance(got, pd.CategoricalDtype):
+            continue        # eda_shared README: büyük edgeroi'de neuropil kategorik saklanır
+        if got != want:
+            _fail(table, "Dtypes", f"{col}: {got} (beklenen {want})")
     # Nulls
     for col, (_, nullable) in schema.items():
         if not nullable and df[col].isna().any():
@@ -48,8 +51,9 @@ def validate_neurons(n):
     check_vocabulary(n, "neurons")
 
 
-def validate_edges(e, neurons=None, table="edges", schema=None, keys=("pre_id", "post_id", "dataset")):
-    check_schema(e, schema or config.EDGE_SCHEMA, table)
+def validate_edges(e, neurons=None, table="edges", schema=None, keys=("pre_id", "post_id", "dataset"),
+                   allow_categorical=()):
+    check_schema(e, schema or config.EDGE_SCHEMA, table, allow_categorical)
     check_keys(e, list(keys), table)
     if (e["syn_count"] < e["min_syn_fetched"]).any():
         _fail(table, "Threshold", "syn_count < min_syn_fetched olan satır var")
@@ -65,7 +69,7 @@ def validate_edges(e, neurons=None, table="edges", schema=None, keys=("pre_id", 
 
 def validate_edgeroi(r, neurons=None):
     validate_edges(r, neurons, table="edgeroi", schema=config.EDGEROI_SCHEMA,
-                   keys=("pre_id", "post_id", "neuropil", "dataset"))
+                   keys=("pre_id", "post_id", "neuropil", "dataset"), allow_categorical=("neuropil",))
 
 
 def check_plausibility(neurons, edges):

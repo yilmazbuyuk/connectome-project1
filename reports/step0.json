@@ -1,0 +1,62 @@
+{
+ "fafb": {
+  "neurons": 139255,
+  "set_annotation_rows": 139248,
+  "set_dropped_not_in_release": 7,
+  "set_added_unknown": 14,
+  "set_total": 139255,
+  "super_class": {
+   "optic": 77537,
+   "central": 32383,
+   "sensory": 16904,
+   "visual_projection": 8038,
+   "ascending": 1750,
+   "descending": 1303,
+   "sensory_ascending": 612,
+   "visual_centrifugal": 524,
+   "motor": 110,
+   "endocrine": 80,
+   "unknown": 14
+  },
+  "edges_tau1": 15091983,
+  "edges_ge5": 2700513,
+  "region_ties": 232,
+  "region_unknown": 281,
+  "self_connections_dropped": 0,
+  "central_population": 45203,
+  "dopamine_before": 5909,
+  "dopamine_after": 638
+ },
+ "malecns": {
+  "neurons_in": 165122,
+  "neurons_kept": 144414,
+  "neurons_dropped": 20708,
+  "ascending_kept": 1841,
+  "sensory_ascending_kept": 534,
+  "region_changed": 1657,
+  "region_ties": 76,
+  "edgeroi_syn_brain": 99982458,
+  "edgeroi_syn_brain_unkept": 0,
+  "edgeroi_syn_nerve_cord": 24041864,
+  "edgeroi_syn_no_location": 251,
+  "edges_tau1": 21706010,
+  "edges_ge5": 5143528,
+  "synapses_tau1": 99982458,
+  "self_pairs_dropped": 101,
+  "super_class": {
+   "optic": 89388,
+   "central": 32160,
+   "visual_projection": 9202,
+   "sensory": 8918,
+   "ascending": 1841,
+   "descending": 1312,
+   "visual_centrifugal": 563,
+   "sensory_ascending": 534,
+   "unknown": 302,
+   "motor": 107,
+   "endocrine": 71,
+   "efferent": 16
+  },
+  "central_population": 45642
+ }
+}

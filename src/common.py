@@ -1,6 +1,9 @@
-"""İki veri seti için ortak dönüştürme yardımcıları."""
+"""İki veri seti için ortak dönüştürme yardımcıları.
+
+v0.2.0: bölge (region) artık burada değil, eda_shared.corrections.region_from_counts ile
+hesaplanıyor (Week 4 correction 6). Yerel bölge fonksiyonu silindi.
+"""
 import pandas as pd
-import config
 
 
 def recode(series, mapping, column):
@@ -18,24 +21,3 @@ def apply_schema(df, schema):
     for col, (dtype, _) in schema.items():
         out[col] = df[col].astype(dtype)
     return out.reset_index(drop=True)
-
-
-def top_region(edgeroi, log=print):
-    """Her nöron için girdi+çıktı sinapslarının en çok olduğu nöropil (tüm sinapslar, τ=1).
-
-    Eşitlik kuralı 3. haftada kararlaştırılacak; şimdilik belirleyici olsun diye
-    eşitlikte alfabetik olarak ilk nöropil seçilir ve eşitlik sayısı loglanır.
-    """
-    a = edgeroi.groupby(["pre_id", "neuropil"], observed=True)["syn_count"].sum()
-    b = edgeroi.groupby(["post_id", "neuropil"], observed=True)["syn_count"].sum()
-    a.index.names = b.index.names = ["neuron_id", "neuropil"]
-    tot = a.add(b, fill_value=0).rename("syn").reset_index()
-    tot = tot.sort_values(["neuron_id", "syn", "neuropil"], ascending=[True, False, True])
-    first = tot.groupby("neuron_id").head(2).copy()
-    first["rank"] = first.groupby("neuron_id").cumcount()
-    w = first.pivot(index="neuron_id", columns="rank", values="syn")
-    ties = int((w.get(1) == w[0]).sum()) if 1 in w else 0
-    top = tot.groupby("neuron_id").head(1).set_index("neuron_id")["neuropil"]
-    log(f"region: {len(top):,} nörona atandı; ilk iki nöropilde tam eşitlik: {ties:,} "
-        f"(alfabetik seçildi; kural 3. haftada); UNASGD atanan: {int((top == 'UNASGD').sum()):,}")
-    return top

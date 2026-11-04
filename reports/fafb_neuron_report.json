@@ -1,0 +1,10 @@
+{
+ "neuron_set": {
+  "annotation_rows": 139248,
+  "dropped_not_in_release": 7,
+  "added_unknown": 14,
+  "total": 139255
+ },
+ "region_ties": 232,
+ "region_unknown": 281
+}

@@ -1,0 +1,17 @@
+{
+ "neurons_in": 165122,
+ "neurons_kept": 144414,
+ "neurons_dropped": 20708,
+ "ascending_kept": 1841,
+ "sensory_ascending_kept": 534,
+ "region_changed": 1657,
+ "region_ties": 76,
+ "edgeroi_syn_brain": 99982458,
+ "edgeroi_syn_brain_unkept": 0,
+ "edgeroi_syn_nerve_cord": 24041864,
+ "edgeroi_syn_no_location": 251,
+ "edges_tau1": 21706010,
+ "edges_ge5": 5143528,
+ "synapses_tau1": 99982458,
+ "self_pairs_dropped": 101
+}

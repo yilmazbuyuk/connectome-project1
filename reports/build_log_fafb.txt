@@ -1,0 +1,7 @@
+[cache] fafb_annotations_raw_783_ann3.2.0.parquet: 139,248 satır diskten (0.8 sn)
+[cache] fafb_edgeroi_783_buhmann_min1.parquet: 16,847,997 satır diskten (4.7 sn)
+[cache] fafb_edges_783_buhmann_min1.parquet: 15,091,983 satır diskten (2.3 sn)
+neurons: etiket satırı 139,248; release dışı atılan 7; etiketsiz eklenen 14; toplam 139,255
+region (FlyWire sayım dosyaları, tüm sinapslar): eşitlik 232; unknown 281
+[build] fafb_neurons_783_ann3.2.0-proofread.parquet: 139,255 satır üretildi (62.7 sn, 2.8 MB)
+Doğrulama: fafb neurons/edges/edgeroi tüm kontroller geçti (References dahil)

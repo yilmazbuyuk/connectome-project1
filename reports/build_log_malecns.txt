@@ -1,5 +1,29 @@
-malecns: ham tablo 176,422; Traced 165,122
-malecns superclass (ham -> sayılar): {'ol_intrinsic': 89390, 'cb_intrinsic': 32160, 'vnc_intrinsic': 13151, 'visual_projection': 9201, 'vnc_sensory': 6365, 'cb_sensory': 4868, 'ol_sensory': 4114, 'ascending_neuron': 1846, 'descending_neuron': 1314, 'vnc_motor': 708, 'visual_centrifugal': 563, 'sensory_ascending': 537, None: 516, 'cb_motor': 107, 'vnc_efferent': 94, 'cb_endocrine': 72, 'ENS': 47, 'vnc_endocrine': 22, 'sensory_descending': 12, 'vnc_sensory_tbc': 9, 'efferent_ascending': 8, 'cb_sensory_tbc': 5, 'efferent_descending': 4, 'cb_efferent': 4, 'visual_projection_tbc': 2, 'sensory_ascending_tbc': 2, 'vnc_tbc': 1}
-malecns neurons (interim): 165,122 satır; side: {'right': 82738, 'left': 81362, 'unknown': 630, 'center': 392}; super_class unknown: 13,715
-[build] malecns_neurons_v1.0_traced-interim.parquet: 165,122 satır üretildi (1.3 sn, 3.3 MB)
-ADIM0 malecns nöron (Traced, interim): 165,122
+[cache] neuPrint ham tabloları: 165,122 nöron, 4,775,918 ROI satırı
+[cache] malecns_neurons_v1.0_traced-cns.parquet: 165,122 satır diskten (0.2 sn)
+edgeroi: geçici kova klasörü D:\connectome_data\tmp\edgeroi_buckets
+edgeroi: 1. geçiş — 311,833,243 sinaps satırı parça parça okunuyor (10-40 dakika)...
+  %  5  (15,597,568 / 311,833,243)
+  % 10  (31,195,136 / 311,833,243)
+  % 15  (46,792,704 / 311,833,243)
+  % 20  (62,390,272 / 311,833,243)
+  % 25  (77,987,840 / 311,833,243)
+  % 30  (93,585,408 / 311,833,243)
+  % 35  (109,182,976 / 311,833,243)
+  % 40  (124,780,544 / 311,833,243)
+  % 45  (140,378,112 / 311,833,243)
+  % 50  (155,975,680 / 311,833,243)
+  % 55  (171,573,248 / 311,833,243)
+  % 60  (187,105,280 / 311,833,243)
+  % 65  (202,702,848 / 311,833,243)
+  % 70  (218,300,416 / 311,833,243)
+  % 75  (233,897,984 / 311,833,243)
+  % 80  (249,495,552 / 311,833,243)
+  % 85  (265,093,120 / 311,833,243)
+  % 90  (280,690,688 / 311,833,243)
+  % 95  (296,288,256 / 311,833,243)
+  %100  (311,833,243 / 311,833,243)
+edgeroi: 2. geçiş — 64 kova toplanıyor...
+edgeroi: 29,436,425 satır; öz-bağlantı satırı 131 (101 nöron kendine bağlı) atıldı
+[build] malecns_edgeroi_v1.0_traced-cns_min1_conf0.5.parquet: 29,436,294 satır
+brain part: neurons_in=165,122, neurons_kept=144,414, neurons_dropped=20,708, ascending_kept=1,841, sensory_ascending_kept=534, region_changed=1,657, region_ties=76, edgeroi_syn_brain=99,982,458, edgeroi_syn_brain_unkept=0, edgeroi_syn_nerve_cord=24,041,864, edgeroi_syn_no_location=251, edges_tau1=21,706,010, edges_ge5=5,143,528, synapses_tau1=99,982,458
+Doğrulama: malecns brain neurons/edges tüm kontroller geçti (References, Plausibility dahil)
