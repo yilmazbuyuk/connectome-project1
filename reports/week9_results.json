@@ -1,0 +1,8348 @@
+{
+ "config_version": "0.2.0",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "folds": 5,
+ "classes": [
+  "sensory",
+  "sensory_ascending",
+  "ascending",
+  "optic",
+  "visual_projection",
+  "visual_centrifugal",
+  "central",
+  "descending",
+  "motor",
+  "endocrine"
+ ],
+ "quick": false,
+ "overall": {
+  "type": {
+   "cost_flow125": {
+    "5|logreg|cross": [
+     0.1568,
+     0.0267
+    ],
+    "5|logreg|cross_costrule": [
+     0.1569,
+     0.028
+    ],
+    "5|logreg|cross_em": [
+     0.1682,
+     0.0271
+    ],
+    "5|logreg|efferent": [
+     3.8,
+     0.1146
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.1952,
+     0.0076
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     0.1897,
+     0.0078
+    ],
+    "5|logreg|within": [
+     0.2108,
+     0.0139
+    ],
+    "5|logreg|within_costrule": [
+     0.2102,
+     0.0143
+    ],
+    "5|logreg|within_shared": [
+     0.1654,
+     0.0167
+    ],
+    "5|majority|cross": [
+     1.1075,
+     0.0114
+    ],
+    "5|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     1.1587,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     1.1542,
+     0.0076
+    ],
+    "5|majority|within": [
+     1.1129,
+     0.0106
+    ],
+    "5|majority|within_shared": [
+     1.1153,
+     0.0103
+    ],
+    "5|rf|cross": [
+     0.1619,
+     0.0187
+    ],
+    "5|rf|cross_costrule": [
+     0.1663,
+     0.0193
+    ],
+    "5|rf|cross_em": [
+     0.1805,
+     0.031
+    ],
+    "5|rf|efferent": [
+     3.6571,
+     0.1549
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.1922,
+     0.0016
+    ],
+    "5|rf|unmatched_vs_ref": [
+     0.1862,
+     0.0042
+    ],
+    "5|rf|within": [
+     0.2076,
+     0.0101
+    ],
+    "5|rf|within_costrule": [
+     0.2085,
+     0.0096
+    ],
+    "5|rf|within_shared": [
+     0.1615,
+     0.0161
+    ],
+    "10|logreg|cross": [
+     0.1676,
+     0.0253
+    ],
+    "10|logreg|cross_costrule": [
+     0.1672,
+     0.0252
+    ],
+    "10|logreg|cross_em": [
+     0.1842,
+     0.0284
+    ],
+    "10|logreg|efferent": [
+     3.6571,
+     0.2357
+    ],
+    "10|logreg|floor_opp": [
+     0.2562,
+     0.0207
+    ],
+    "10|logreg|floor_same": [
+     0.2504,
+     0.0233
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.22,
+     0.0171
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     0.2131,
+     0.0169
+    ],
+    "10|logreg|within": [
+     0.2439,
+     0.0174
+    ],
+    "10|logreg|within_costrule": [
+     0.2428,
+     0.0164
+    ],
+    "10|logreg|within_shared": [
+     0.1899,
+     0.0186
+    ],
+    "10|logreg_balanced|cross": [
+     0.3796,
+     0.0338
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.334,
+     0.0285
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.7318,
+     0.1135
+    ],
+    "10|logreg_balanced|efferent": [
+     3.3095,
+     0.2506
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.4385,
+     0.0233
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.4283,
+     0.0249
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.4157,
+     0.0215
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     0.4058,
+     0.0231
+    ],
+    "10|logreg_balanced|within": [
+     0.4314,
+     0.0183
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.3874,
+     0.0163
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.3907,
+     0.0218
+    ],
+    "10|majority|cross": [
+     1.1074,
+     0.0134
+    ],
+    "10|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     1.1587,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     1.1543,
+     0.0054
+    ],
+    "10|majority|within": [
+     1.1129,
+     0.0119
+    ],
+    "10|majority|within_shared": [
+     1.1153,
+     0.0112
+    ],
+    "10|rf|cross": [
+     0.173,
+     0.0179
+    ],
+    "10|rf|cross_costrule": [
+     0.1767,
+     0.0191
+    ],
+    "10|rf|cross_em": [
+     0.2,
+     0.0297
+    ],
+    "10|rf|efferent": [
+     3.5167,
+     0.2104
+    ],
+    "10|rf|floor_opp": [
+     0.2529,
+     0.0141
+    ],
+    "10|rf|floor_same": [
+     0.2424,
+     0.0121
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.2123,
+     0.0077
+    ],
+    "10|rf|unmatched_vs_ref": [
+     0.2064,
+     0.0072
+    ],
+    "10|rf|within": [
+     0.2307,
+     0.0127
+    ],
+    "10|rf|within_costrule": [
+     0.2308,
+     0.0107
+    ],
+    "10|rf|within_shared": [
+     0.1778,
+     0.0138
+    ],
+    "15|logreg|cross": [
+     0.2048,
+     0.0231
+    ],
+    "15|logreg|cross_costrule": [
+     0.2036,
+     0.0229
+    ],
+    "15|logreg|cross_em": [
+     0.2181,
+     0.028
+    ],
+    "15|logreg|efferent": [
+     3.5071,
+     0.1845
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.2722,
+     0.0247
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     0.2664,
+     0.0233
+    ],
+    "15|logreg|within": [
+     0.3018,
+     0.0166
+    ],
+    "15|logreg|within_costrule": [
+     0.3001,
+     0.0176
+    ],
+    "15|logreg|within_shared": [
+     0.2413,
+     0.0152
+    ],
+    "15|majority|cross": [
+     1.1075,
+     0.0114
+    ],
+    "15|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     1.1587,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     1.1542,
+     0.0076
+    ],
+    "15|majority|within": [
+     1.1129,
+     0.0106
+    ],
+    "15|majority|within_shared": [
+     1.1153,
+     0.0103
+    ],
+    "15|rf|cross": [
+     0.1924,
+     0.0199
+    ],
+    "15|rf|cross_costrule": [
+     0.1967,
+     0.0206
+    ],
+    "15|rf|cross_em": [
+     0.2235,
+     0.0273
+    ],
+    "15|rf|efferent": [
+     3.35,
+     0.2629
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.2446,
+     0.0076
+    ],
+    "15|rf|unmatched_vs_ref": [
+     0.2392,
+     0.0069
+    ],
+    "15|rf|within": [
+     0.2611,
+     0.0136
+    ],
+    "15|rf|within_costrule": [
+     0.264,
+     0.0136
+    ],
+    "15|rf|within_shared": [
+     0.2035,
+     0.0175
+    ]
+   },
+   "cost_unit": {
+    "5|logreg|cross": [
+     0.0861,
+     0.0144
+    ],
+    "5|logreg|cross_costrule": [
+     0.0864,
+     0.0151
+    ],
+    "5|logreg|cross_em": [
+     0.0916,
+     0.0166
+    ],
+    "5|logreg|efferent": [
+     1.0,
+     0.0
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.1263,
+     0.0049
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.1314,
+     0.0082
+    ],
+    "5|logreg|within_costrule": [
+     0.1317,
+     0.0083
+    ],
+    "5|logreg|within_shared": [
+     0.088,
+     0.0082
+    ],
+    "5|majority|cross": [
+     0.9703,
+     0.0049
+    ],
+    "5|majority|efferent": [
+     1.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     0.9565,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.9158,
+     0.0062
+    ],
+    "5|majority|within_shared": [
+     0.9687,
+     0.0051
+    ],
+    "5|rf|cross": [
+     0.0881,
+     0.0095
+    ],
+    "5|rf|cross_costrule": [
+     0.0903,
+     0.0098
+    ],
+    "5|rf|cross_em": [
+     0.1015,
+     0.0197
+    ],
+    "5|rf|efferent": [
+     1.0,
+     0.0
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.1209,
+     0.0006
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.1294,
+     0.0045
+    ],
+    "5|rf|within_costrule": [
+     0.1316,
+     0.0046
+    ],
+    "5|rf|within_shared": [
+     0.0864,
+     0.0077
+    ],
+    "10|logreg|cross": [
+     0.0972,
+     0.0144
+    ],
+    "10|logreg|cross_costrule": [
+     0.0973,
+     0.0146
+    ],
+    "10|logreg|cross_em": [
+     0.1068,
+     0.0175
+    ],
+    "10|logreg|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|logreg|floor_opp": [
+     0.1645,
+     0.0113
+    ],
+    "10|logreg|floor_same": [
+     0.1614,
+     0.0131
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.1498,
+     0.0113
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.1573,
+     0.0097
+    ],
+    "10|logreg|within_costrule": [
+     0.1578,
+     0.0094
+    ],
+    "10|logreg|within_shared": [
+     0.1091,
+     0.0104
+    ],
+    "10|logreg_balanced|cross": [
+     0.2107,
+     0.0195
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.1904,
+     0.018
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.4682,
+     0.0968
+    ],
+    "10|logreg_balanced|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.2426,
+     0.0156
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.236,
+     0.0162
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.2399,
+     0.007
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.2356,
+     0.0129
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.2223,
+     0.0115
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.2108,
+     0.0136
+    ],
+    "10|majority|cross": [
+     0.9704,
+     0.0033
+    ],
+    "10|majority|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     0.9565,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.9158,
+     0.0046
+    ],
+    "10|majority|within_shared": [
+     0.9687,
+     0.0034
+    ],
+    "10|rf|cross": [
+     0.097,
+     0.0087
+    ],
+    "10|rf|cross_costrule": [
+     0.0989,
+     0.0091
+    ],
+    "10|rf|cross_em": [
+     0.1161,
+     0.0177
+    ],
+    "10|rf|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|rf|floor_opp": [
+     0.1596,
+     0.0076
+    ],
+    "10|rf|floor_same": [
+     0.1546,
+     0.0074
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.1349,
+     0.0037
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.1463,
+     0.0066
+    ],
+    "10|rf|within_costrule": [
+     0.1482,
+     0.0061
+    ],
+    "10|rf|within_shared": [
+     0.0998,
+     0.0072
+    ],
+    "15|logreg|cross": [
+     0.1309,
+     0.0133
+    ],
+    "15|logreg|cross_costrule": [
+     0.1307,
+     0.0133
+    ],
+    "15|logreg|cross_em": [
+     0.139,
+     0.0172
+    ],
+    "15|logreg|efferent": [
+     1.0,
+     0.0
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.1938,
+     0.0155
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.2048,
+     0.0109
+    ],
+    "15|logreg|within_costrule": [
+     0.2046,
+     0.0109
+    ],
+    "15|logreg|within_shared": [
+     0.1535,
+     0.0096
+    ],
+    "15|majority|cross": [
+     0.9703,
+     0.0049
+    ],
+    "15|majority|efferent": [
+     1.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     0.9565,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.9158,
+     0.0062
+    ],
+    "15|majority|within_shared": [
+     0.9687,
+     0.0051
+    ],
+    "15|rf|cross": [
+     0.1163,
+     0.011
+    ],
+    "15|rf|cross_costrule": [
+     0.1186,
+     0.0108
+    ],
+    "15|rf|cross_em": [
+     0.1382,
+     0.0125
+    ],
+    "15|rf|efferent": [
+     1.0,
+     0.0
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.1642,
+     0.004
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.1736,
+     0.0066
+    ],
+    "15|rf|within_costrule": [
+     0.1769,
+     0.0073
+    ],
+    "15|rf|within_shared": [
+     0.1254,
+     0.0081
+    ]
+   },
+   "cost_flow1210": {
+    "5|logreg|cross": [
+     0.167,
+     0.0297
+    ],
+    "5|logreg|cross_costrule": [
+     0.1662,
+     0.0308
+    ],
+    "5|logreg|cross_em": [
+     0.1841,
+     0.0298
+    ],
+    "5|logreg|efferent": [
+     7.05,
+     0.2632
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.206,
+     0.0091
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.2263,
+     0.019
+    ],
+    "5|logreg|within_costrule": [
+     0.2231,
+     0.0198
+    ],
+    "5|logreg|within_shared": [
+     0.1833,
+     0.023
+    ],
+    "5|majority|cross": [
+     1.1075,
+     0.0114
+    ],
+    "5|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     1.1587,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     1.1129,
+     0.0106
+    ],
+    "5|majority|within_shared": [
+     1.1153,
+     0.0103
+    ],
+    "5|rf|cross": [
+     0.1692,
+     0.0227
+    ],
+    "5|rf|cross_costrule": [
+     0.1729,
+     0.0234
+    ],
+    "5|rf|cross_em": [
+     0.1889,
+     0.027
+    ],
+    "5|rf|efferent": [
+     6.5857,
+     0.3942
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.1994,
+     0.003
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.2221,
+     0.0141
+    ],
+    "5|rf|within_costrule": [
+     0.2173,
+     0.013
+    ],
+    "5|rf|within_shared": [
+     0.1783,
+     0.0206
+    ],
+    "10|logreg|cross": [
+     0.1767,
+     0.0278
+    ],
+    "10|logreg|cross_costrule": [
+     0.1753,
+     0.027
+    ],
+    "10|logreg|cross_em": [
+     0.1937,
+     0.0284
+    ],
+    "10|logreg|efferent": [
+     6.419,
+     0.6284
+    ],
+    "10|logreg|floor_opp": [
+     0.2736,
+     0.024
+    ],
+    "10|logreg|floor_same": [
+     0.2675,
+     0.0266
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.2269,
+     0.0146
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.2594,
+     0.0193
+    ],
+    "10|logreg|within_costrule": [
+     0.2552,
+     0.0175
+    ],
+    "10|logreg|within_shared": [
+     0.209,
+     0.0208
+    ],
+    "10|logreg_balanced|cross": [
+     0.4163,
+     0.042
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.3628,
+     0.0337
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.7836,
+     0.1214
+    ],
+    "10|logreg_balanced|efferent": [
+     5.9405,
+     0.5774
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.502,
+     0.0292
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.4913,
+     0.0326
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.4931,
+     0.0406
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.4965,
+     0.0206
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.4269,
+     0.0192
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.438,
+     0.0267
+    ],
+    "10|majority|cross": [
+     1.1074,
+     0.0134
+    ],
+    "10|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     1.1587,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     1.1129,
+     0.0119
+    ],
+    "10|majority|within_shared": [
+     1.1153,
+     0.0112
+    ],
+    "10|rf|cross": [
+     0.1802,
+     0.0214
+    ],
+    "10|rf|cross_costrule": [
+     0.1826,
+     0.0233
+    ],
+    "10|rf|cross_em": [
+     0.2077,
+     0.0292
+    ],
+    "10|rf|efferent": [
+     6.1476,
+     0.5506
+    ],
+    "10|rf|floor_opp": [
+     0.2671,
+     0.0175
+    ],
+    "10|rf|floor_same": [
+     0.2565,
+     0.0142
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.2188,
+     0.008
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.2448,
+     0.0153
+    ],
+    "10|rf|within_costrule": [
+     0.2401,
+     0.0129
+    ],
+    "10|rf|within_shared": [
+     0.1939,
+     0.0171
+    ],
+    "15|logreg|cross": [
+     0.2138,
+     0.026
+    ],
+    "15|logreg|cross_costrule": [
+     0.211,
+     0.025
+    ],
+    "15|logreg|cross_em": [
+     0.2241,
+     0.0279
+    ],
+    "15|logreg|efferent": [
+     6.0429,
+     0.5034
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.2735,
+     0.0246
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.3182,
+     0.0188
+    ],
+    "15|logreg|within_costrule": [
+     0.3138,
+     0.0207
+    ],
+    "15|logreg|within_shared": [
+     0.2614,
+     0.0176
+    ],
+    "15|majority|cross": [
+     1.1075,
+     0.0114
+    ],
+    "15|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     1.1587,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     1.1129,
+     0.0106
+    ],
+    "15|majority|within_shared": [
+     1.1153,
+     0.0103
+    ],
+    "15|rf|cross": [
+     0.1994,
+     0.0232
+    ],
+    "15|rf|cross_costrule": [
+     0.2024,
+     0.0248
+    ],
+    "15|rf|cross_em": [
+     0.2301,
+     0.0249
+    ],
+    "15|rf|efferent": [
+     5.7071,
+     0.689
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.2494,
+     0.0074
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.2731,
+     0.0191
+    ],
+    "15|rf|within_costrule": [
+     0.2722,
+     0.0174
+    ],
+    "15|rf|within_shared": [
+     0.217,
+     0.0242
+    ]
+   },
+   "accuracy": {
+    "5|logreg|cross": [
+     0.9139,
+     0.0144
+    ],
+    "5|logreg|cross_costrule": [
+     0.9136,
+     0.0151
+    ],
+    "5|logreg|cross_em": [
+     0.9084,
+     0.0166
+    ],
+    "5|logreg|efferent": [
+     0.0,
+     0.0
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.8737,
+     0.0049
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.8686,
+     0.0082
+    ],
+    "5|logreg|within_costrule": [
+     0.8683,
+     0.0083
+    ],
+    "5|logreg|within_shared": [
+     0.912,
+     0.0082
+    ],
+    "5|majority|cross": [
+     0.0297,
+     0.0049
+    ],
+    "5|majority|efferent": [
+     0.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     0.0435,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.0842,
+     0.0062
+    ],
+    "5|majority|within_shared": [
+     0.0313,
+     0.0051
+    ],
+    "5|rf|cross": [
+     0.9119,
+     0.0095
+    ],
+    "5|rf|cross_costrule": [
+     0.9097,
+     0.0098
+    ],
+    "5|rf|cross_em": [
+     0.8985,
+     0.0197
+    ],
+    "5|rf|efferent": [
+     0.0,
+     0.0
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.8791,
+     0.0006
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.8706,
+     0.0045
+    ],
+    "5|rf|within_costrule": [
+     0.8684,
+     0.0046
+    ],
+    "5|rf|within_shared": [
+     0.9136,
+     0.0077
+    ],
+    "10|logreg|cross": [
+     0.9028,
+     0.0144
+    ],
+    "10|logreg|cross_costrule": [
+     0.9027,
+     0.0146
+    ],
+    "10|logreg|cross_em": [
+     0.8932,
+     0.0175
+    ],
+    "10|logreg|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|logreg|floor_opp": [
+     0.8355,
+     0.0113
+    ],
+    "10|logreg|floor_same": [
+     0.8386,
+     0.0131
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.8502,
+     0.0113
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.8427,
+     0.0097
+    ],
+    "10|logreg|within_costrule": [
+     0.8422,
+     0.0094
+    ],
+    "10|logreg|within_shared": [
+     0.8909,
+     0.0104
+    ],
+    "10|logreg_balanced|cross": [
+     0.7893,
+     0.0195
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.8096,
+     0.018
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.5318,
+     0.0968
+    ],
+    "10|logreg_balanced|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.7574,
+     0.0156
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.764,
+     0.0162
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.7601,
+     0.007
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.7644,
+     0.0129
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.7777,
+     0.0115
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.7892,
+     0.0136
+    ],
+    "10|majority|cross": [
+     0.0296,
+     0.0033
+    ],
+    "10|majority|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     0.0435,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.0842,
+     0.0046
+    ],
+    "10|majority|within_shared": [
+     0.0313,
+     0.0034
+    ],
+    "10|rf|cross": [
+     0.903,
+     0.0087
+    ],
+    "10|rf|cross_costrule": [
+     0.9011,
+     0.0091
+    ],
+    "10|rf|cross_em": [
+     0.8839,
+     0.0177
+    ],
+    "10|rf|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|rf|floor_opp": [
+     0.8404,
+     0.0076
+    ],
+    "10|rf|floor_same": [
+     0.8454,
+     0.0074
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.8651,
+     0.0037
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.8537,
+     0.0066
+    ],
+    "10|rf|within_costrule": [
+     0.8518,
+     0.0061
+    ],
+    "10|rf|within_shared": [
+     0.9002,
+     0.0072
+    ],
+    "15|logreg|cross": [
+     0.8691,
+     0.0133
+    ],
+    "15|logreg|cross_costrule": [
+     0.8693,
+     0.0133
+    ],
+    "15|logreg|cross_em": [
+     0.861,
+     0.0172
+    ],
+    "15|logreg|efferent": [
+     0.0,
+     0.0
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.8062,
+     0.0155
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.7952,
+     0.0109
+    ],
+    "15|logreg|within_costrule": [
+     0.7954,
+     0.0109
+    ],
+    "15|logreg|within_shared": [
+     0.8465,
+     0.0096
+    ],
+    "15|majority|cross": [
+     0.0297,
+     0.0049
+    ],
+    "15|majority|efferent": [
+     0.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     0.0435,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.0842,
+     0.0062
+    ],
+    "15|majority|within_shared": [
+     0.0313,
+     0.0051
+    ],
+    "15|rf|cross": [
+     0.8837,
+     0.011
+    ],
+    "15|rf|cross_costrule": [
+     0.8814,
+     0.0108
+    ],
+    "15|rf|cross_em": [
+     0.8618,
+     0.0125
+    ],
+    "15|rf|efferent": [
+     0.0,
+     0.0
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.8358,
+     0.004
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.8264,
+     0.0066
+    ],
+    "15|rf|within_costrule": [
+     0.8231,
+     0.0073
+    ],
+    "15|rf|within_shared": [
+     0.8746,
+     0.0081
+    ]
+   },
+   "macro_f1": {
+    "5|logreg|cross": [
+     0.6626,
+     0.0994
+    ],
+    "5|logreg|cross_costrule": [
+     0.6573,
+     0.0994
+    ],
+    "5|logreg|cross_em": [
+     0.6209,
+     0.1125
+    ],
+    "5|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.5356,
+     0.0262
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.65,
+     0.064
+    ],
+    "5|logreg|within_costrule": [
+     0.6563,
+     0.0668
+    ],
+    "5|logreg|within_shared": [
+     0.7147,
+     0.0924
+    ],
+    "5|majority|cross": [
+     0.0063,
+     0.0011
+    ],
+    "5|majority|efferent": [
+     NaN,
+     null
+    ],
+    "5|majority|unmatched": [
+     0.0083,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.0155,
+     0.0011
+    ],
+    "5|majority|within_shared": [
+     0.0064,
+     0.0008
+    ],
+    "5|rf|cross": [
+     0.677,
+     0.0829
+    ],
+    "5|rf|cross_costrule": [
+     0.6647,
+     0.0788
+    ],
+    "5|rf|cross_em": [
+     0.5032,
+     0.0856
+    ],
+    "5|rf|efferent": [
+     NaN,
+     null
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.524,
+     0.0222
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.6417,
+     0.0346
+    ],
+    "5|rf|within_costrule": [
+     0.622,
+     0.0401
+    ],
+    "5|rf|within_shared": [
+     0.7089,
+     0.0566
+    ],
+    "10|logreg|cross": [
+     0.6342,
+     0.0777
+    ],
+    "10|logreg|cross_costrule": [
+     0.634,
+     0.0774
+    ],
+    "10|logreg|cross_em": [
+     0.5686,
+     0.0887
+    ],
+    "10|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg|floor_opp": [
+     0.5776,
+     0.0564
+    ],
+    "10|logreg|floor_same": [
+     0.5795,
+     0.0588
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.4989,
+     0.0558
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.6064,
+     0.0444
+    ],
+    "10|logreg|within_costrule": [
+     0.6059,
+     0.0447
+    ],
+    "10|logreg|within_shared": [
+     0.671,
+     0.0664
+    ],
+    "10|logreg_balanced|cross": [
+     0.5525,
+     0.0446
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.5631,
+     0.0466
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.322,
+     0.0521
+    ],
+    "10|logreg_balanced|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.5341,
+     0.0271
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.5521,
+     0.0273
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.4215,
+     0.0165
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.5542,
+     0.0205
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.5574,
+     0.0214
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.559,
+     0.0445
+    ],
+    "10|majority|cross": [
+     0.0063,
+     0.0007
+    ],
+    "10|majority|efferent": [
+     NaN,
+     null
+    ],
+    "10|majority|unmatched": [
+     0.0083,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.0155,
+     0.0008
+    ],
+    "10|majority|within_shared": [
+     0.0065,
+     0.0006
+    ],
+    "10|rf|cross": [
+     0.6229,
+     0.0558
+    ],
+    "10|rf|cross_costrule": [
+     0.614,
+     0.0533
+    ],
+    "10|rf|cross_em": [
+     0.48,
+     0.048
+    ],
+    "10|rf|efferent": [
+     NaN,
+     null
+    ],
+    "10|rf|floor_opp": [
+     0.5291,
+     0.0335
+    ],
+    "10|rf|floor_same": [
+     0.5393,
+     0.0392
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.4884,
+     0.0151
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.5895,
+     0.0282
+    ],
+    "10|rf|within_costrule": [
+     0.5755,
+     0.0307
+    ],
+    "10|rf|within_shared": [
+     0.6501,
+     0.0433
+    ],
+    "15|logreg|cross": [
+     0.5477,
+     0.0687
+    ],
+    "15|logreg|cross_costrule": [
+     0.5491,
+     0.0659
+    ],
+    "15|logreg|cross_em": [
+     0.495,
+     0.0783
+    ],
+    "15|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.4375,
+     0.0644
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.5434,
+     0.0582
+    ],
+    "15|logreg|within_costrule": [
+     0.5427,
+     0.0561
+    ],
+    "15|logreg|within_shared": [
+     0.589,
+     0.0781
+    ],
+    "15|majority|cross": [
+     0.0063,
+     0.0011
+    ],
+    "15|majority|efferent": [
+     NaN,
+     null
+    ],
+    "15|majority|unmatched": [
+     0.0083,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.0155,
+     0.0011
+    ],
+    "15|majority|within_shared": [
+     0.0064,
+     0.0008
+    ],
+    "15|rf|cross": [
+     0.598,
+     0.0669
+    ],
+    "15|rf|cross_costrule": [
+     0.5816,
+     0.0593
+    ],
+    "15|rf|cross_em": [
+     0.4528,
+     0.0544
+    ],
+    "15|rf|efferent": [
+     NaN,
+     null
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.449,
+     0.0209
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.557,
+     0.0442
+    ],
+    "15|rf|within_costrule": [
+     0.5368,
+     0.0497
+    ],
+    "15|rf|within_shared": [
+     0.6061,
+     0.069
+    ]
+   },
+   "balanced_accuracy": {
+    "5|logreg|cross": [
+     0.626,
+     0.0915
+    ],
+    "5|logreg|cross_costrule": [
+     0.6218,
+     0.0916
+    ],
+    "5|logreg|cross_em": [
+     0.6128,
+     0.1214
+    ],
+    "5|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.5226,
+     0.0269
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.6422,
+     0.0614
+    ],
+    "5|logreg|within_costrule": [
+     0.646,
+     0.0645
+    ],
+    "5|logreg|within_shared": [
+     0.7007,
+     0.1
+    ],
+    "5|majority|cross": [
+     0.1089,
+     0.005
+    ],
+    "5|majority|efferent": [
+     NaN,
+     null
+    ],
+    "5|majority|unmatched": [
+     0.1,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.1,
+     0.0
+    ],
+    "5|majority|within_shared": [
+     0.1067,
+     0.0061
+    ],
+    "5|rf|cross": [
+     0.6209,
+     0.0737
+    ],
+    "5|rf|cross_costrule": [
+     0.6091,
+     0.0703
+    ],
+    "5|rf|cross_em": [
+     0.5238,
+     0.0848
+    ],
+    "5|rf|efferent": [
+     NaN,
+     null
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.5044,
+     0.0152
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.6155,
+     0.0406
+    ],
+    "5|rf|within_costrule": [
+     0.594,
+     0.0423
+    ],
+    "5|rf|within_shared": [
+     0.6722,
+     0.0621
+    ],
+    "10|logreg|cross": [
+     0.6043,
+     0.0718
+    ],
+    "10|logreg|cross_costrule": [
+     0.6039,
+     0.0719
+    ],
+    "10|logreg|cross_em": [
+     0.5598,
+     0.0959
+    ],
+    "10|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg|floor_opp": [
+     0.5715,
+     0.058
+    ],
+    "10|logreg|floor_same": [
+     0.5755,
+     0.0639
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.4915,
+     0.0565
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.6012,
+     0.0489
+    ],
+    "10|logreg|within_costrule": [
+     0.5981,
+     0.0491
+    ],
+    "10|logreg|within_shared": [
+     0.67,
+     0.0707
+    ],
+    "10|logreg_balanced|cross": [
+     0.6955,
+     0.0588
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.6937,
+     0.0597
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.5323,
+     0.079
+    ],
+    "10|logreg_balanced|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.7229,
+     0.0407
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.7388,
+     0.0436
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.6022,
+     0.0215
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.7454,
+     0.0288
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.7362,
+     0.0286
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.7539,
+     0.053
+    ],
+    "10|majority|cross": [
+     0.1096,
+     0.0039
+    ],
+    "10|majority|efferent": [
+     NaN,
+     null
+    ],
+    "10|majority|unmatched": [
+     0.1,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.1,
+     0.0
+    ],
+    "10|majority|within_shared": [
+     0.1074,
+     0.0054
+    ],
+    "10|rf|cross": [
+     0.5691,
+     0.0465
+    ],
+    "10|rf|cross_costrule": [
+     0.5597,
+     0.0434
+    ],
+    "10|rf|cross_em": [
+     0.4892,
+     0.049
+    ],
+    "10|rf|efferent": [
+     NaN,
+     null
+    ],
+    "10|rf|floor_opp": [
+     0.5131,
+     0.0322
+    ],
+    "10|rf|floor_same": [
+     0.5222,
+     0.0355
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.4629,
+     0.0106
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.5628,
+     0.0273
+    ],
+    "10|rf|within_costrule": [
+     0.5494,
+     0.0293
+    ],
+    "10|rf|within_shared": [
+     0.6201,
+     0.0434
+    ],
+    "15|logreg|cross": [
+     0.5419,
+     0.059
+    ],
+    "15|logreg|cross_costrule": [
+     0.5419,
+     0.0568
+    ],
+    "15|logreg|cross_em": [
+     0.4956,
+     0.0731
+    ],
+    "15|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.4358,
+     0.0586
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.5291,
+     0.051
+    ],
+    "15|logreg|within_costrule": [
+     0.5267,
+     0.0486
+    ],
+    "15|logreg|within_shared": [
+     0.5924,
+     0.0718
+    ],
+    "15|majority|cross": [
+     0.1089,
+     0.005
+    ],
+    "15|majority|efferent": [
+     NaN,
+     null
+    ],
+    "15|majority|unmatched": [
+     0.1,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.1,
+     0.0
+    ],
+    "15|majority|within_shared": [
+     0.1067,
+     0.0061
+    ],
+    "15|rf|cross": [
+     0.5571,
+     0.061
+    ],
+    "15|rf|cross_costrule": [
+     0.539,
+     0.049
+    ],
+    "15|rf|cross_em": [
+     0.4867,
+     0.0691
+    ],
+    "15|rf|efferent": [
+     NaN,
+     null
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.4315,
+     0.0116
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.5342,
+     0.0437
+    ],
+    "15|rf|within_costrule": [
+     0.5157,
+     0.0475
+    ],
+    "15|rf|within_shared": [
+     0.5845,
+     0.0701
+    ]
+   }
+  },
+  "neuron": {
+   "cost_flow125": {
+    "5|logreg|cross": [
+     0.1265,
+     0.0605
+    ],
+    "5|logreg|cross_costrule": [
+     0.1236,
+     0.061
+    ],
+    "5|logreg|cross_em": [
+     0.1467,
+     0.0607
+    ],
+    "5|logreg|efferent": [
+     3.275,
+     0.2006
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.1612,
+     0.0043
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     0.1563,
+     0.0048
+    ],
+    "5|logreg|within": [
+     0.1099,
+     0.0528
+    ],
+    "5|logreg|within_costrule": [
+     0.1094,
+     0.0529
+    ],
+    "5|logreg|within_shared": [
+     0.1032,
+     0.0569
+    ],
+    "5|majority|cross": [
+     0.4365,
+     0.0962
+    ],
+    "5|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     1.1689,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     1.1619,
+     0.0095
+    ],
+    "5|majority|within": [
+     0.5922,
+     0.2223
+    ],
+    "5|majority|within_shared": [
+     0.5633,
+     0.2338
+    ],
+    "5|rf|cross": [
+     0.1099,
+     0.0663
+    ],
+    "5|rf|cross_costrule": [
+     0.1103,
+     0.0661
+    ],
+    "5|rf|cross_em": [
+     0.1549,
+     0.0579
+    ],
+    "5|rf|efferent": [
+     3.2875,
+     0.1801
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.1579,
+     0.0019
+    ],
+    "5|rf|unmatched_vs_ref": [
+     0.153,
+     0.0033
+    ],
+    "5|rf|within": [
+     0.1554,
+     0.1858
+    ],
+    "5|rf|within_costrule": [
+     0.1434,
+     0.1575
+    ],
+    "5|rf|within_shared": [
+     0.1515,
+     0.196
+    ],
+    "10|logreg|cross": [
+     0.137,
+     0.0679
+    ],
+    "10|logreg|cross_costrule": [
+     0.1347,
+     0.068
+    ],
+    "10|logreg|cross_em": [
+     0.1712,
+     0.0621
+    ],
+    "10|logreg|efferent": [
+     3.3625,
+     0.1498
+    ],
+    "10|logreg|floor_opp": [
+     0.1496,
+     0.0789
+    ],
+    "10|logreg|floor_same": [
+     0.149,
+     0.0922
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.1854,
+     0.0138
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     0.1797,
+     0.0132
+    ],
+    "10|logreg|within": [
+     0.1489,
+     0.077
+    ],
+    "10|logreg|within_costrule": [
+     0.1488,
+     0.0767
+    ],
+    "10|logreg|within_shared": [
+     0.1414,
+     0.0813
+    ],
+    "10|logreg_balanced|cross": [
+     0.2464,
+     0.1068
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.2284,
+     0.1019
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.9019,
+     0.0672
+    ],
+    "10|logreg_balanced|efferent": [
+     3.0167,
+     0.3286
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.2916,
+     0.1617
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.2815,
+     0.1609
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.3415,
+     0.0277
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     0.3302,
+     0.0294
+    ],
+    "10|logreg_balanced|within": [
+     0.2597,
+     0.125
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.2425,
+     0.116
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.2488,
+     0.1322
+    ],
+    "10|majority|cross": [
+     0.4371,
+     0.089
+    ],
+    "10|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     1.1689,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     1.1612,
+     0.0066
+    ],
+    "10|majority|within": [
+     0.5922,
+     0.211
+    ],
+    "10|majority|within_shared": [
+     0.5632,
+     0.2216
+    ],
+    "10|rf|cross": [
+     0.1433,
+     0.081
+    ],
+    "10|rf|cross_costrule": [
+     0.1436,
+     0.08
+    ],
+    "10|rf|cross_em": [
+     0.1834,
+     0.0772
+    ],
+    "10|rf|efferent": [
+     3.1667,
+     0.1958
+    ],
+    "10|rf|floor_opp": [
+     0.135,
+     0.0812
+    ],
+    "10|rf|floor_same": [
+     0.1326,
+     0.0991
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.1792,
+     0.0062
+    ],
+    "10|rf|unmatched_vs_ref": [
+     0.1743,
+     0.0069
+    ],
+    "10|rf|within": [
+     0.1535,
+     0.1213
+    ],
+    "10|rf|within_costrule": [
+     0.1541,
+     0.1217
+    ],
+    "10|rf|within_shared": [
+     0.1469,
+     0.1273
+    ],
+    "15|logreg|cross": [
+     0.1565,
+     0.0722
+    ],
+    "15|logreg|cross_costrule": [
+     0.1553,
+     0.0715
+    ],
+    "15|logreg|cross_em": [
+     0.1795,
+     0.0775
+    ],
+    "15|logreg|efferent": [
+     3.2125,
+     0.1746
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.2426,
+     0.0218
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     0.2384,
+     0.0216
+    ],
+    "15|logreg|within": [
+     0.1787,
+     0.082
+    ],
+    "15|logreg|within_costrule": [
+     0.1778,
+     0.0809
+    ],
+    "15|logreg|within_shared": [
+     0.1678,
+     0.0871
+    ],
+    "15|majority|cross": [
+     0.4365,
+     0.0962
+    ],
+    "15|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     1.1689,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     1.1619,
+     0.0095
+    ],
+    "15|majority|within": [
+     0.5922,
+     0.2223
+    ],
+    "15|majority|within_shared": [
+     0.5633,
+     0.2338
+    ],
+    "15|rf|cross": [
+     0.1643,
+     0.0903
+    ],
+    "15|rf|cross_costrule": [
+     0.1655,
+     0.0904
+    ],
+    "15|rf|cross_em": [
+     0.2042,
+     0.0796
+    ],
+    "15|rf|efferent": [
+     2.975,
+     0.2236
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.2251,
+     0.0113
+    ],
+    "15|rf|unmatched_vs_ref": [
+     0.22,
+     0.0112
+    ],
+    "15|rf|within": [
+     0.1469,
+     0.0528
+    ],
+    "15|rf|within_costrule": [
+     0.1471,
+     0.0509
+    ],
+    "15|rf|within_shared": [
+     0.1367,
+     0.0552
+    ]
+   },
+   "cost_unit": {
+    "5|logreg|cross": [
+     0.0721,
+     0.0302
+    ],
+    "5|logreg|cross_costrule": [
+     0.0707,
+     0.0301
+    ],
+    "5|logreg|cross_em": [
+     0.0842,
+     0.0312
+    ],
+    "5|logreg|efferent": [
+     1.0,
+     0.0
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.1273,
+     0.0025
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.0656,
+     0.0281
+    ],
+    "5|logreg|within_costrule": [
+     0.0656,
+     0.028
+    ],
+    "5|logreg|within_shared": [
+     0.0596,
+     0.0302
+    ],
+    "5|majority|cross": [
+     0.352,
+     0.0701
+    ],
+    "5|majority|efferent": [
+     1.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     0.9645,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.4431,
+     0.1126
+    ],
+    "5|majority|within_shared": [
+     0.4186,
+     0.1181
+    ],
+    "5|rf|cross": [
+     0.0615,
+     0.0315
+    ],
+    "5|rf|cross_costrule": [
+     0.0618,
+     0.0315
+    ],
+    "5|rf|cross_em": [
+     0.0891,
+     0.0305
+    ],
+    "5|rf|efferent": [
+     1.0,
+     0.0
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.1203,
+     0.0026
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.0853,
+     0.0921
+    ],
+    "5|rf|within_costrule": [
+     0.0799,
+     0.078
+    ],
+    "5|rf|within_shared": [
+     0.0806,
+     0.0968
+    ],
+    "10|logreg|cross": [
+     0.0805,
+     0.035
+    ],
+    "10|logreg|cross_costrule": [
+     0.0795,
+     0.0349
+    ],
+    "10|logreg|cross_em": [
+     0.0987,
+     0.0329
+    ],
+    "10|logreg|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|logreg|floor_opp": [
+     0.0924,
+     0.041
+    ],
+    "10|logreg|floor_same": [
+     0.0915,
+     0.0474
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.1498,
+     0.0073
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.0916,
+     0.041
+    ],
+    "10|logreg|within_costrule": [
+     0.0919,
+     0.0408
+    ],
+    "10|logreg|within_shared": [
+     0.0845,
+     0.0431
+    ],
+    "10|logreg_balanced|cross": [
+     0.1687,
+     0.0618
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.1609,
+     0.0608
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.7923,
+     0.0684
+    ],
+    "10|logreg_balanced|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.1835,
+     0.0905
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.1786,
+     0.0902
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.2132,
+     0.0103
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.1667,
+     0.0723
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.1638,
+     0.0724
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.161,
+     0.0764
+    ],
+    "10|majority|cross": [
+     0.3524,
+     0.0644
+    ],
+    "10|majority|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     0.9645,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.4431,
+     0.1057
+    ],
+    "10|majority|within_shared": [
+     0.4186,
+     0.1107
+    ],
+    "10|rf|cross": [
+     0.0847,
+     0.0414
+    ],
+    "10|rf|cross_costrule": [
+     0.085,
+     0.0409
+    ],
+    "10|rf|cross_em": [
+     0.1075,
+     0.0419
+    ],
+    "10|rf|efferent": [
+     1.0,
+     0.0
+    ],
+    "10|rf|floor_opp": [
+     0.0839,
+     0.0434
+    ],
+    "10|rf|floor_same": [
+     0.0825,
+     0.0518
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.1356,
+     0.0026
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.0919,
+     0.0629
+    ],
+    "10|rf|within_costrule": [
+     0.0928,
+     0.0629
+    ],
+    "10|rf|within_shared": [
+     0.0856,
+     0.0657
+    ],
+    "15|logreg|cross": [
+     0.098,
+     0.0362
+    ],
+    "15|logreg|cross_costrule": [
+     0.0975,
+     0.0359
+    ],
+    "15|logreg|cross_em": [
+     0.1115,
+     0.0401
+    ],
+    "15|logreg|efferent": [
+     1.0,
+     0.0
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.1975,
+     0.0118
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.1175,
+     0.0436
+    ],
+    "15|logreg|within_costrule": [
+     0.1173,
+     0.0431
+    ],
+    "15|logreg|within_shared": [
+     0.1075,
+     0.0458
+    ],
+    "15|majority|cross": [
+     0.352,
+     0.0701
+    ],
+    "15|majority|efferent": [
+     1.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     0.9645,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.4431,
+     0.1126
+    ],
+    "15|majority|within_shared": [
+     0.4186,
+     0.1181
+    ],
+    "15|rf|cross": [
+     0.1035,
+     0.0452
+    ],
+    "15|rf|cross_costrule": [
+     0.1042,
+     0.0452
+    ],
+    "15|rf|cross_em": [
+     0.1343,
+     0.0556
+    ],
+    "15|rf|efferent": [
+     1.0,
+     0.0
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.1698,
+     0.0045
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.0978,
+     0.0249
+    ],
+    "15|rf|within_costrule": [
+     0.0985,
+     0.0237
+    ],
+    "15|rf|within_shared": [
+     0.089,
+     0.0253
+    ]
+   },
+   "cost_flow1210": {
+    "5|logreg|cross": [
+     0.1284,
+     0.0611
+    ],
+    "5|logreg|cross_costrule": [
+     0.1253,
+     0.0617
+    ],
+    "5|logreg|cross_em": [
+     0.1501,
+     0.0618
+    ],
+    "5|logreg|efferent": [
+     5.8375,
+     0.4606
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.1649,
+     0.0038
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.1153,
+     0.0533
+    ],
+    "5|logreg|within_costrule": [
+     0.114,
+     0.0537
+    ],
+    "5|logreg|within_shared": [
+     0.1085,
+     0.0578
+    ],
+    "5|majority|cross": [
+     0.4365,
+     0.0962
+    ],
+    "5|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     1.1689,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.5922,
+     0.2223
+    ],
+    "5|majority|within_shared": [
+     0.5633,
+     0.2338
+    ],
+    "5|rf|cross": [
+     0.1113,
+     0.0669
+    ],
+    "5|rf|cross_costrule": [
+     0.1115,
+     0.0666
+    ],
+    "5|rf|cross_em": [
+     0.1568,
+     0.0592
+    ],
+    "5|rf|efferent": [
+     5.725,
+     0.4411
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.161,
+     0.0021
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.1605,
+     0.1863
+    ],
+    "5|rf|within_costrule": [
+     0.1467,
+     0.1577
+    ],
+    "5|rf|within_shared": [
+     0.1565,
+     0.1964
+    ],
+    "10|logreg|cross": [
+     0.1389,
+     0.0679
+    ],
+    "10|logreg|cross_costrule": [
+     0.1363,
+     0.068
+    ],
+    "10|logreg|cross_em": [
+     0.1737,
+     0.0621
+    ],
+    "10|logreg|efferent": [
+     5.6333,
+     0.3994
+    ],
+    "10|logreg|floor_opp": [
+     0.156,
+     0.0788
+    ],
+    "10|logreg|floor_same": [
+     0.1551,
+     0.0921
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.1888,
+     0.013
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.1547,
+     0.0767
+    ],
+    "10|logreg|within_costrule": [
+     0.1534,
+     0.0765
+    ],
+    "10|logreg|within_shared": [
+     0.1471,
+     0.081
+    ],
+    "10|logreg_balanced|cross": [
+     0.2546,
+     0.1087
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.2341,
+     0.103
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.922,
+     0.0703
+    ],
+    "10|logreg_balanced|efferent": [
+     5.2458,
+     0.7682
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.338,
+     0.2043
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.328,
+     0.2058
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.4057,
+     0.0486
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.3056,
+     0.1698
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.2694,
+     0.1434
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.2922,
+     0.1797
+    ],
+    "10|majority|cross": [
+     0.4371,
+     0.089
+    ],
+    "10|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     1.1689,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.5922,
+     0.211
+    ],
+    "10|majority|within_shared": [
+     0.5632,
+     0.2216
+    ],
+    "10|rf|cross": [
+     0.1446,
+     0.081
+    ],
+    "10|rf|cross_costrule": [
+     0.1446,
+     0.08
+    ],
+    "10|rf|cross_em": [
+     0.185,
+     0.0779
+    ],
+    "10|rf|efferent": [
+     5.2917,
+     0.4891
+    ],
+    "10|rf|floor_opp": [
+     0.1407,
+     0.081
+    ],
+    "10|rf|floor_same": [
+     0.1378,
+     0.0988
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.1822,
+     0.0062
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.1587,
+     0.1209
+    ],
+    "10|rf|within_costrule": [
+     0.1574,
+     0.1216
+    ],
+    "10|rf|within_shared": [
+     0.1519,
+     0.1267
+    ],
+    "15|logreg|cross": [
+     0.1586,
+     0.0727
+    ],
+    "15|logreg|cross_costrule": [
+     0.1569,
+     0.0719
+    ],
+    "15|logreg|cross_em": [
+     0.1809,
+     0.0782
+    ],
+    "15|logreg|efferent": [
+     5.275,
+     0.452
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.2444,
+     0.0223
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.1844,
+     0.0817
+    ],
+    "15|logreg|within_costrule": [
+     0.1826,
+     0.0805
+    ],
+    "15|logreg|within_shared": [
+     0.1735,
+     0.0868
+    ],
+    "15|majority|cross": [
+     0.4365,
+     0.0962
+    ],
+    "15|majority|efferent": [
+     2.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     1.1689,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.5922,
+     0.2223
+    ],
+    "15|majority|within_shared": [
+     0.5633,
+     0.2338
+    ],
+    "15|rf|cross": [
+     0.1655,
+     0.0906
+    ],
+    "15|rf|cross_costrule": [
+     0.1665,
+     0.0907
+    ],
+    "15|rf|cross_em": [
+     0.2057,
+     0.0812
+    ],
+    "15|rf|efferent": [
+     4.7875,
+     0.5653
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.227,
+     0.0111
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.1512,
+     0.0531
+    ],
+    "15|rf|within_costrule": [
+     0.1502,
+     0.0514
+    ],
+    "15|rf|within_shared": [
+     0.1408,
+     0.0554
+    ]
+   },
+   "accuracy": {
+    "5|logreg|cross": [
+     0.9279,
+     0.0302
+    ],
+    "5|logreg|cross_costrule": [
+     0.9293,
+     0.0301
+    ],
+    "5|logreg|cross_em": [
+     0.9158,
+     0.0312
+    ],
+    "5|logreg|efferent": [
+     0.0,
+     0.0
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.8727,
+     0.0025
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.9344,
+     0.0281
+    ],
+    "5|logreg|within_costrule": [
+     0.9344,
+     0.028
+    ],
+    "5|logreg|within_shared": [
+     0.9404,
+     0.0302
+    ],
+    "5|majority|cross": [
+     0.648,
+     0.0701
+    ],
+    "5|majority|efferent": [
+     0.0,
+     0.0
+    ],
+    "5|majority|unmatched": [
+     0.0355,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.5569,
+     0.1126
+    ],
+    "5|majority|within_shared": [
+     0.5814,
+     0.1181
+    ],
+    "5|rf|cross": [
+     0.9385,
+     0.0315
+    ],
+    "5|rf|cross_costrule": [
+     0.9382,
+     0.0315
+    ],
+    "5|rf|cross_em": [
+     0.9109,
+     0.0305
+    ],
+    "5|rf|efferent": [
+     0.0,
+     0.0
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.8797,
+     0.0026
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.9147,
+     0.0921
+    ],
+    "5|rf|within_costrule": [
+     0.9201,
+     0.078
+    ],
+    "5|rf|within_shared": [
+     0.9194,
+     0.0968
+    ],
+    "10|logreg|cross": [
+     0.9195,
+     0.035
+    ],
+    "10|logreg|cross_costrule": [
+     0.9205,
+     0.0349
+    ],
+    "10|logreg|cross_em": [
+     0.9013,
+     0.0329
+    ],
+    "10|logreg|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|logreg|floor_opp": [
+     0.9076,
+     0.041
+    ],
+    "10|logreg|floor_same": [
+     0.9085,
+     0.0474
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.8502,
+     0.0073
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.9084,
+     0.041
+    ],
+    "10|logreg|within_costrule": [
+     0.9081,
+     0.0408
+    ],
+    "10|logreg|within_shared": [
+     0.9155,
+     0.0431
+    ],
+    "10|logreg_balanced|cross": [
+     0.8313,
+     0.0618
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.8391,
+     0.0608
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.2077,
+     0.0684
+    ],
+    "10|logreg_balanced|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.8165,
+     0.0905
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.8214,
+     0.0902
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.7868,
+     0.0103
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.8333,
+     0.0723
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.8362,
+     0.0724
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.839,
+     0.0764
+    ],
+    "10|majority|cross": [
+     0.6476,
+     0.0644
+    ],
+    "10|majority|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|majority|unmatched": [
+     0.0355,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.5569,
+     0.1057
+    ],
+    "10|majority|within_shared": [
+     0.5814,
+     0.1107
+    ],
+    "10|rf|cross": [
+     0.9153,
+     0.0414
+    ],
+    "10|rf|cross_costrule": [
+     0.915,
+     0.0409
+    ],
+    "10|rf|cross_em": [
+     0.8925,
+     0.0419
+    ],
+    "10|rf|efferent": [
+     0.0,
+     0.0
+    ],
+    "10|rf|floor_opp": [
+     0.9161,
+     0.0434
+    ],
+    "10|rf|floor_same": [
+     0.9175,
+     0.0518
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.8644,
+     0.0026
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.9081,
+     0.0629
+    ],
+    "10|rf|within_costrule": [
+     0.9072,
+     0.0629
+    ],
+    "10|rf|within_shared": [
+     0.9144,
+     0.0657
+    ],
+    "15|logreg|cross": [
+     0.902,
+     0.0362
+    ],
+    "15|logreg|cross_costrule": [
+     0.9025,
+     0.0359
+    ],
+    "15|logreg|cross_em": [
+     0.8885,
+     0.0401
+    ],
+    "15|logreg|efferent": [
+     0.0,
+     0.0
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.8025,
+     0.0118
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.8825,
+     0.0436
+    ],
+    "15|logreg|within_costrule": [
+     0.8827,
+     0.0431
+    ],
+    "15|logreg|within_shared": [
+     0.8925,
+     0.0458
+    ],
+    "15|majority|cross": [
+     0.648,
+     0.0701
+    ],
+    "15|majority|efferent": [
+     0.0,
+     0.0
+    ],
+    "15|majority|unmatched": [
+     0.0355,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.5569,
+     0.1126
+    ],
+    "15|majority|within_shared": [
+     0.5814,
+     0.1181
+    ],
+    "15|rf|cross": [
+     0.8965,
+     0.0452
+    ],
+    "15|rf|cross_costrule": [
+     0.8958,
+     0.0452
+    ],
+    "15|rf|cross_em": [
+     0.8657,
+     0.0556
+    ],
+    "15|rf|efferent": [
+     0.0,
+     0.0
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.8302,
+     0.0045
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.9022,
+     0.0249
+    ],
+    "15|rf|within_costrule": [
+     0.9015,
+     0.0237
+    ],
+    "15|rf|within_shared": [
+     0.911,
+     0.0253
+    ]
+   },
+   "macro_f1": {
+    "5|logreg|cross": [
+     0.6525,
+     0.1181
+    ],
+    "5|logreg|cross_costrule": [
+     0.6466,
+     0.1205
+    ],
+    "5|logreg|cross_em": [
+     0.6165,
+     0.1345
+    ],
+    "5|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.6366,
+     0.0135
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.6887,
+     0.0671
+    ],
+    "5|logreg|within_costrule": [
+     0.6909,
+     0.0686
+    ],
+    "5|logreg|within_shared": [
+     0.7427,
+     0.1057
+    ],
+    "5|majority|cross": [
+     0.0854,
+     0.0056
+    ],
+    "5|majority|efferent": [
+     NaN,
+     null
+    ],
+    "5|majority|unmatched": [
+     0.0069,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.071,
+     0.0095
+    ],
+    "5|majority|within_shared": [
+     0.0774,
+     0.0069
+    ],
+    "5|rf|cross": [
+     0.6736,
+     0.1087
+    ],
+    "5|rf|cross_costrule": [
+     0.6581,
+     0.101
+    ],
+    "5|rf|cross_em": [
+     0.4946,
+     0.0914
+    ],
+    "5|rf|efferent": [
+     NaN,
+     null
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.6178,
+     0.0411
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.6733,
+     0.054
+    ],
+    "5|rf|within_costrule": [
+     0.6528,
+     0.0501
+    ],
+    "5|rf|within_shared": [
+     0.7298,
+     0.0685
+    ],
+    "10|logreg|cross": [
+     0.6353,
+     0.0852
+    ],
+    "10|logreg|cross_costrule": [
+     0.6354,
+     0.0842
+    ],
+    "10|logreg|cross_em": [
+     0.5689,
+     0.0875
+    ],
+    "10|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg|floor_opp": [
+     0.6156,
+     0.0561
+    ],
+    "10|logreg|floor_same": [
+     0.6236,
+     0.0569
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.5901,
+     0.0518
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.6388,
+     0.0501
+    ],
+    "10|logreg|within_costrule": [
+     0.6377,
+     0.0504
+    ],
+    "10|logreg|within_shared": [
+     0.6967,
+     0.0727
+    ],
+    "10|logreg_balanced|cross": [
+     0.5236,
+     0.0433
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.538,
+     0.0523
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.3287,
+     0.0553
+    ],
+    "10|logreg_balanced|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.4977,
+     0.0418
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.5067,
+     0.0324
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.5138,
+     0.0284
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.5084,
+     0.0254
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.5179,
+     0.0264
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.5295,
+     0.0405
+    ],
+    "10|majority|cross": [
+     0.0859,
+     0.0047
+    ],
+    "10|majority|efferent": [
+     NaN,
+     null
+    ],
+    "10|majority|unmatched": [
+     0.0069,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.071,
+     0.009
+    ],
+    "10|majority|within_shared": [
+     0.0781,
+     0.0084
+    ],
+    "10|rf|cross": [
+     0.6151,
+     0.0728
+    ],
+    "10|rf|cross_costrule": [
+     0.6038,
+     0.0728
+    ],
+    "10|rf|cross_em": [
+     0.4824,
+     0.0429
+    ],
+    "10|rf|efferent": [
+     NaN,
+     null
+    ],
+    "10|rf|floor_opp": [
+     0.5747,
+     0.0344
+    ],
+    "10|rf|floor_same": [
+     0.5802,
+     0.041
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.5737,
+     0.0213
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.6168,
+     0.0394
+    ],
+    "10|rf|within_costrule": [
+     0.601,
+     0.0391
+    ],
+    "10|rf|within_shared": [
+     0.6697,
+     0.0492
+    ],
+    "15|logreg|cross": [
+     0.5661,
+     0.0775
+    ],
+    "15|logreg|cross_costrule": [
+     0.5679,
+     0.0732
+    ],
+    "15|logreg|cross_em": [
+     0.5148,
+     0.0741
+    ],
+    "15|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.5185,
+     0.0601
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.5831,
+     0.0358
+    ],
+    "15|logreg|within_costrule": [
+     0.5817,
+     0.0343
+    ],
+    "15|logreg|within_shared": [
+     0.6354,
+     0.0756
+    ],
+    "15|majority|cross": [
+     0.0854,
+     0.0056
+    ],
+    "15|majority|efferent": [
+     NaN,
+     null
+    ],
+    "15|majority|unmatched": [
+     0.0069,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.071,
+     0.0095
+    ],
+    "15|majority|within_shared": [
+     0.0774,
+     0.0069
+    ],
+    "15|rf|cross": [
+     0.5991,
+     0.0969
+    ],
+    "15|rf|cross_costrule": [
+     0.5808,
+     0.086
+    ],
+    "15|rf|cross_em": [
+     0.4546,
+     0.0601
+    ],
+    "15|rf|efferent": [
+     NaN,
+     null
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.5301,
+     0.0262
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.5937,
+     0.0478
+    ],
+    "15|rf|within_costrule": [
+     0.5745,
+     0.0479
+    ],
+    "15|rf|within_shared": [
+     0.6416,
+     0.0801
+    ]
+   },
+   "balanced_accuracy": {
+    "5|logreg|cross": [
+     0.6088,
+     0.1113
+    ],
+    "5|logreg|cross_costrule": [
+     0.6023,
+     0.1135
+    ],
+    "5|logreg|cross_em": [
+     0.6083,
+     0.1385
+    ],
+    "5|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "5|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "5|logreg|unmatched": [
+     0.6607,
+     0.0201
+    ],
+    "5|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|logreg|within": [
+     0.6567,
+     0.0669
+    ],
+    "5|logreg|within_costrule": [
+     0.6577,
+     0.069
+    ],
+    "5|logreg|within_shared": [
+     0.7027,
+     0.1012
+    ],
+    "5|majority|cross": [
+     0.1089,
+     0.005
+    ],
+    "5|majority|efferent": [
+     NaN,
+     null
+    ],
+    "5|majority|unmatched": [
+     0.1,
+     0.0
+    ],
+    "5|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|majority|within": [
+     0.1,
+     0.0
+    ],
+    "5|majority|within_shared": [
+     0.1067,
+     0.0061
+    ],
+    "5|rf|cross": [
+     0.5999,
+     0.1004
+    ],
+    "5|rf|cross_costrule": [
+     0.583,
+     0.0915
+    ],
+    "5|rf|cross_em": [
+     0.5129,
+     0.0605
+    ],
+    "5|rf|efferent": [
+     NaN,
+     null
+    ],
+    "5|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "5|rf|unmatched": [
+     0.6291,
+     0.0347
+    ],
+    "5|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "5|rf|within": [
+     0.6181,
+     0.057
+    ],
+    "5|rf|within_costrule": [
+     0.5945,
+     0.0496
+    ],
+    "5|rf|within_shared": [
+     0.6642,
+     0.067
+    ],
+    "10|logreg|cross": [
+     0.5829,
+     0.0875
+    ],
+    "10|logreg|cross_costrule": [
+     0.5814,
+     0.0865
+    ],
+    "10|logreg|cross_em": [
+     0.545,
+     0.095
+    ],
+    "10|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg|floor_opp": [
+     0.5751,
+     0.0609
+    ],
+    "10|logreg|floor_same": [
+     0.5801,
+     0.0629
+    ],
+    "10|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg|unmatched": [
+     0.6089,
+     0.0541
+    ],
+    "10|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg|within": [
+     0.6009,
+     0.0521
+    ],
+    "10|logreg|within_costrule": [
+     0.5976,
+     0.0525
+    ],
+    "10|logreg|within_shared": [
+     0.6527,
+     0.0732
+    ],
+    "10|logreg_balanced|cross": [
+     0.7147,
+     0.0751
+    ],
+    "10|logreg_balanced|cross_costrule": [
+     0.7119,
+     0.0769
+    ],
+    "10|logreg_balanced|cross_em": [
+     0.5537,
+     0.0791
+    ],
+    "10|logreg_balanced|efferent": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|floor_opp": [
+     0.7293,
+     0.0386
+    ],
+    "10|logreg_balanced|floor_same": [
+     0.7444,
+     0.0429
+    ],
+    "10|logreg_balanced|rule_change": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|unmatched": [
+     0.6842,
+     0.031
+    ],
+    "10|logreg_balanced|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|logreg_balanced|within": [
+     0.7505,
+     0.0284
+    ],
+    "10|logreg_balanced|within_costrule": [
+     0.7432,
+     0.0267
+    ],
+    "10|logreg_balanced|within_shared": [
+     0.7571,
+     0.0539
+    ],
+    "10|majority|cross": [
+     0.1096,
+     0.0039
+    ],
+    "10|majority|efferent": [
+     NaN,
+     null
+    ],
+    "10|majority|unmatched": [
+     0.1,
+     0.0
+    ],
+    "10|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|majority|within": [
+     0.1,
+     0.0
+    ],
+    "10|majority|within_shared": [
+     0.1074,
+     0.0054
+    ],
+    "10|rf|cross": [
+     0.5445,
+     0.0644
+    ],
+    "10|rf|cross_costrule": [
+     0.5333,
+     0.0624
+    ],
+    "10|rf|cross_em": [
+     0.4867,
+     0.0447
+    ],
+    "10|rf|efferent": [
+     NaN,
+     null
+    ],
+    "10|rf|floor_opp": [
+     0.5218,
+     0.0326
+    ],
+    "10|rf|floor_same": [
+     0.5287,
+     0.0361
+    ],
+    "10|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "10|rf|unmatched": [
+     0.5774,
+     0.0165
+    ],
+    "10|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "10|rf|within": [
+     0.5602,
+     0.0371
+    ],
+    "10|rf|within_costrule": [
+     0.545,
+     0.0366
+    ],
+    "10|rf|within_shared": [
+     0.605,
+     0.0458
+    ],
+    "15|logreg|cross": [
+     0.5131,
+     0.0688
+    ],
+    "15|logreg|cross_costrule": [
+     0.5133,
+     0.0661
+    ],
+    "15|logreg|cross_em": [
+     0.4723,
+     0.0641
+    ],
+    "15|logreg|efferent": [
+     NaN,
+     null
+    ],
+    "15|logreg|rule_change": [
+     NaN,
+     null
+    ],
+    "15|logreg|unmatched": [
+     0.5516,
+     0.0571
+    ],
+    "15|logreg|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|logreg|within": [
+     0.5278,
+     0.024
+    ],
+    "15|logreg|within_costrule": [
+     0.5246,
+     0.0216
+    ],
+    "15|logreg|within_shared": [
+     0.5716,
+     0.0553
+    ],
+    "15|majority|cross": [
+     0.1089,
+     0.005
+    ],
+    "15|majority|efferent": [
+     NaN,
+     null
+    ],
+    "15|majority|unmatched": [
+     0.1,
+     0.0
+    ],
+    "15|majority|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|majority|within": [
+     0.1,
+     0.0
+    ],
+    "15|majority|within_shared": [
+     0.1067,
+     0.0061
+    ],
+    "15|rf|cross": [
+     0.5265,
+     0.0834
+    ],
+    "15|rf|cross_costrule": [
+     0.5076,
+     0.0689
+    ],
+    "15|rf|cross_em": [
+     0.4832,
+     0.0718
+    ],
+    "15|rf|efferent": [
+     NaN,
+     null
+    ],
+    "15|rf|rule_change": [
+     NaN,
+     null
+    ],
+    "15|rf|unmatched": [
+     0.5474,
+     0.0174
+    ],
+    "15|rf|unmatched_vs_ref": [
+     NaN,
+     null
+    ],
+    "15|rf|within": [
+     0.5299,
+     0.0401
+    ],
+    "15|rf|within_costrule": [
+     0.5134,
+     0.0408
+    ],
+    "15|rf|within_shared": [
+     0.5692,
+     0.0668
+    ]
+   }
+  }
+ },
+ "drops_region4": {
+  "logreg|all": {
+   "drop_cross": [
+    -0.0763,
+    0.0146
+   ],
+   "floor": [
+    0.0058,
+    0.0053
+   ],
+   "drop_cross_shared": [
+    -0.0223,
+    0.0107
+   ],
+   "drop_cross_em": [
+    -0.0597,
+    0.0178
+   ]
+  },
+  "logreg|higher_order": {
+   "drop_cross": [
+    -0.0325,
+    0.0076
+   ],
+   "floor": [
+    0.0017,
+    0.0018
+   ],
+   "drop_cross_shared": [
+    -0.0194,
+    0.007
+   ],
+   "drop_cross_em": [
+    -0.0308,
+    0.0093
+   ]
+  },
+  "logreg|motor_periphery": {
+   "drop_cross": [
+    -0.0872,
+    0.0269
+   ],
+   "floor": [
+    0.0021,
+    0.0086
+   ],
+   "drop_cross_shared": [
+    -0.0128,
+    0.0301
+   ],
+   "drop_cross_em": [
+    -0.0609,
+    0.0316
+   ]
+  },
+  "logreg|optic_lobe": {
+   "drop_cross": [
+    -0.0833,
+    0.0516
+   ],
+   "floor": [
+    0.0173,
+    0.0236
+   ],
+   "drop_cross_shared": [
+    0.0339,
+    0.0416
+   ],
+   "drop_cross_em": [
+    -0.0713,
+    0.0586
+   ]
+  },
+  "logreg|sensory_periphery": {
+   "drop_cross": [
+    -0.1053,
+    0.0609
+   ],
+   "floor": [
+    0.0064,
+    0.0235
+   ],
+   "drop_cross_shared": [
+    -0.0999,
+    0.057
+   ],
+   "drop_cross_em": [
+    0.0177,
+    0.1176
+   ]
+  },
+  "logreg_balanced|all": {
+   "drop_cross": [
+    -0.0518,
+    0.0207
+   ],
+   "floor": [
+    0.0102,
+    0.0071
+   ],
+   "drop_cross_shared": [
+    -0.0111,
+    0.0188
+   ],
+   "drop_cross_em": [
+    0.3004,
+    0.1001
+   ]
+  },
+  "logreg_balanced|higher_order": {
+   "drop_cross": [
+    -0.0316,
+    0.0076
+   ],
+   "floor": [
+    -0.0016,
+    0.0031
+   ],
+   "drop_cross_shared": [
+    -0.0083,
+    0.0069
+   ],
+   "drop_cross_em": [
+    0.3279,
+    0.1289
+   ]
+  },
+  "logreg_balanced|motor_periphery": {
+   "drop_cross": [
+    0.0916,
+    0.0274
+   ],
+   "floor": [
+    0.0302,
+    0.0277
+   ],
+   "drop_cross_shared": [
+    0.0285,
+    0.0361
+   ],
+   "drop_cross_em": [
+    0.399,
+    0.0939
+   ]
+  },
+  "logreg_balanced|optic_lobe": {
+   "drop_cross": [
+    -0.1419,
+    0.071
+   ],
+   "floor": [
+    0.0177,
+    0.026
+   ],
+   "drop_cross_shared": [
+    0.064,
+    0.0379
+   ],
+   "drop_cross_em": [
+    0.262,
+    0.0816
+   ]
+  },
+  "logreg_balanced|sensory_periphery": {
+   "drop_cross": [
+    -0.008,
+    0.1204
+   ],
+   "floor": [
+    -0.0069,
+    0.0766
+   ],
+   "drop_cross_shared": [
+    -0.0732,
+    0.1077
+   ],
+   "drop_cross_em": [
+    0.4051,
+    0.0922
+   ]
+  },
+  "majority|all": {
+   "drop_cross": [
+    -0.0055,
+    0.01
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    -0.0079,
+    0.0059
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|higher_order": {
+   "drop_cross": [
+    -0.0062,
+    0.0032
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    -0.0073,
+    0.0031
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|motor_periphery": {
+   "drop_cross": [
+    -0.0988,
+    0.0176
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    -0.0006,
+    0.0153
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|optic_lobe": {
+   "drop_cross": [
+    0.2724,
+    0.0336
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    0.0081,
+    0.0169
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|sensory_periphery": {
+   "drop_cross": [
+    -0.2069,
+    0.0414
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    -0.0045,
+    0.04
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "rf|all": {
+   "drop_cross": [
+    -0.0576,
+    0.0146
+   ],
+   "floor": [
+    0.0106,
+    0.0046
+   ],
+   "drop_cross_shared": [
+    -0.0047,
+    0.0103
+   ],
+   "drop_cross_em": [
+    -0.0307,
+    0.0278
+   ]
+  },
+  "rf|higher_order": {
+   "drop_cross": [
+    -0.0261,
+    0.0067
+   ],
+   "floor": [
+    0.0,
+    0.0024
+   ],
+   "drop_cross_shared": [
+    -0.0134,
+    0.0051
+   ],
+   "drop_cross_em": [
+    -0.0207,
+    0.0101
+   ]
+  },
+  "rf|motor_periphery": {
+   "drop_cross": [
+    -0.0529,
+    0.027
+   ],
+   "floor": [
+    0.0184,
+    0.0105
+   ],
+   "drop_cross_shared": [
+    0.0221,
+    0.0283
+   ],
+   "drop_cross_em": [
+    -0.0095,
+    0.0571
+   ]
+  },
+  "rf|optic_lobe": {
+   "drop_cross": [
+    -0.1126,
+    0.0419
+   ],
+   "floor": [
+    0.0149,
+    0.0206
+   ],
+   "drop_cross_shared": [
+    0.0267,
+    0.0262
+   ],
+   "drop_cross_em": [
+    -0.046,
+    0.1066
+   ]
+  },
+  "rf|sensory_periphery": {
+   "drop_cross": [
+    0.0515,
+    0.0557
+   ],
+   "floor": [
+    0.0223,
+    0.0234
+   ],
+   "drop_cross_shared": [
+    -0.0023,
+    0.0541
+   ],
+   "drop_cross_em": [
+    0.1912,
+    0.1364
+   ]
+  }
+ },
+ "drops_dim": {
+  "logreg|all": {
+   "drop_cross": [
+    -0.0763,
+    0.0146
+   ],
+   "floor": [
+    0.0058,
+    0.0053
+   ],
+   "drop_cross_shared": [
+    -0.0223,
+    0.0107
+   ],
+   "drop_cross_em": [
+    -0.0597,
+    0.0178
+   ]
+  },
+  "logreg|dimorphic": {
+   "drop_cross": [
+    -0.0343,
+    0.1428
+   ],
+   "floor": [
+    0.0115,
+    0.0349
+   ],
+   "drop_cross_shared": [
+    -0.093,
+    0.1858
+   ],
+   "drop_cross_em": [
+    -0.0191,
+    0.142
+   ]
+  },
+  "logreg|isomorphic": {
+   "drop_cross": [
+    -0.0777,
+    0.015
+   ],
+   "floor": [
+    0.0059,
+    0.0054
+   ],
+   "drop_cross_shared": [
+    -0.0217,
+    0.0107
+   ],
+   "drop_cross_em": [
+    -0.061,
+    0.0182
+   ]
+  },
+  "logreg|sex_specific": {
+   "drop_cross": [
+    NaN,
+    NaN
+   ],
+   "floor": [
+    0.0077,
+    0.041
+   ],
+   "drop_cross_shared": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "logreg_balanced|all": {
+   "drop_cross": [
+    -0.0518,
+    0.0207
+   ],
+   "floor": [
+    0.0102,
+    0.0071
+   ],
+   "drop_cross_shared": [
+    -0.0111,
+    0.0188
+   ],
+   "drop_cross_em": [
+    0.3004,
+    0.1001
+   ]
+  },
+  "logreg_balanced|dimorphic": {
+   "drop_cross": [
+    -0.1881,
+    0.1374
+   ],
+   "floor": [
+    0.0143,
+    0.1014
+   ],
+   "drop_cross_shared": [
+    -0.2492,
+    0.1748
+   ],
+   "drop_cross_em": [
+    0.1084,
+    0.2801
+   ]
+  },
+  "logreg_balanced|isomorphic": {
+   "drop_cross": [
+    -0.051,
+    0.0211
+   ],
+   "floor": [
+    0.0098,
+    0.007
+   ],
+   "drop_cross_shared": [
+    -0.0084,
+    0.0183
+   ],
+   "drop_cross_em": [
+    0.3033,
+    0.0999
+   ]
+  },
+  "logreg_balanced|sex_specific": {
+   "drop_cross": [
+    NaN,
+    NaN
+   ],
+   "floor": [
+    -0.0184,
+    0.0923
+   ],
+   "drop_cross_shared": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|all": {
+   "drop_cross": [
+    -0.0055,
+    0.01
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    -0.0079,
+    0.0059
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|dimorphic": {
+   "drop_cross": [
+    0.0485,
+    0.0741
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    0.0001,
+    0.031
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|isomorphic": {
+   "drop_cross": [
+    -0.0068,
+    0.0105
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    -0.0079,
+    0.0061
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "majority|sex_specific": {
+   "drop_cross": [
+    NaN,
+    NaN
+   ],
+   "floor": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_shared": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  },
+  "rf|all": {
+   "drop_cross": [
+    -0.0576,
+    0.0146
+   ],
+   "floor": [
+    0.0106,
+    0.0046
+   ],
+   "drop_cross_shared": [
+    -0.0047,
+    0.0103
+   ],
+   "drop_cross_em": [
+    -0.0307,
+    0.0278
+   ]
+  },
+  "rf|dimorphic": {
+   "drop_cross": [
+    0.0318,
+    0.1381
+   ],
+   "floor": [
+    -0.005,
+    0.0311
+   ],
+   "drop_cross_shared": [
+    -0.0283,
+    0.0995
+   ],
+   "drop_cross_em": [
+    0.1105,
+    0.1406
+   ]
+  },
+  "rf|isomorphic": {
+   "drop_cross": [
+    -0.0595,
+    0.0144
+   ],
+   "floor": [
+    0.0106,
+    0.0047
+   ],
+   "drop_cross_shared": [
+    -0.0047,
+    0.0104
+   ],
+   "drop_cross_em": [
+    -0.0334,
+    0.0262
+   ]
+  },
+  "rf|sex_specific": {
+   "drop_cross": [
+    NaN,
+    NaN
+   ],
+   "floor": [
+    -0.0012,
+    0.0059
+   ],
+   "drop_cross_shared": [
+    NaN,
+    NaN
+   ],
+   "drop_cross_em": [
+    NaN,
+    NaN
+   ]
+  }
+ },
+ "unmatched_vs_ref": {
+  "logreg|neuron": {
+   "cost": 0.1868,
+   "cost_sd": 0.031,
+   "reference_within": 0.2302,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "logreg|type": {
+   "cost": 0.2191,
+   "cost_sd": 0.0306,
+   "reference_within": 0.2189,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "logreg_balanced|neuron": {
+   "cost": 0.3302,
+   "cost_sd": 0.0294,
+   "reference_within": 0.3737,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "logreg_balanced|type": {
+   "cost": 0.4058,
+   "cost_sd": 0.0231,
+   "reference_within": 0.4544,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "majority|neuron": {
+   "cost": 1.1615,
+   "cost_sd": 0.0075,
+   "reference_within": 1.1615,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "majority|type": {
+   "cost": 1.1543,
+   "cost_sd": 0.006,
+   "reference_within": 1.1543,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "rf|neuron": {
+   "cost": 0.1792,
+   "cost_sd": 0.0236,
+   "reference_within": 0.2164,
+   "n": 7149,
+   "coverage": 0.988
+  },
+  "rf|type": {
+   "cost": 0.2089,
+   "cost_sd": 0.0185,
+   "reference_within": 0.2001,
+   "n": 7149,
+   "coverage": 0.988
+  }
+ },
+ "rule_change_share": {
+  "5|logreg|neuron|all": [
+   0.0025,
+   0.0024
+  ],
+  "5|logreg|neuron|higher_order": [
+   0.0001,
+   0.0002
+  ],
+  "5|logreg|neuron|motor_periphery": [
+   0.0167,
+   0.0055
+  ],
+  "5|logreg|neuron|optic_lobe": [
+   0.002,
+   0.004
+  ],
+  "5|logreg|neuron|sensory_periphery": [
+   0.0059,
+   0.0031
+  ],
+  "5|logreg|type|all": [
+   0.0032,
+   0.0012
+  ],
+  "5|logreg|type|higher_order": [
+   0.0,
+   0.0
+  ],
+  "5|logreg|type|motor_periphery": [
+   0.0107,
+   0.0044
+  ],
+  "5|logreg|type|optic_lobe": [
+   0.0003,
+   0.0004
+  ],
+  "5|logreg|type|sensory_periphery": [
+   0.0071,
+   0.0053
+  ],
+  "5|rf|neuron|all": [
+   0.0019,
+   0.0007
+  ],
+  "5|rf|neuron|higher_order": [
+   0.0007,
+   0.0004
+  ],
+  "5|rf|neuron|motor_periphery": [
+   0.0272,
+   0.0082
+  ],
+  "5|rf|neuron|optic_lobe": [
+   0.0002,
+   0.0002
+  ],
+  "5|rf|neuron|sensory_periphery": [
+   0.0062,
+   0.0033
+  ],
+  "5|rf|type|all": [
+   0.0066,
+   0.0008
+  ],
+  "5|rf|type|higher_order": [
+   0.0013,
+   0.0009
+  ],
+  "5|rf|type|motor_periphery": [
+   0.0218,
+   0.0053
+  ],
+  "5|rf|type|optic_lobe": [
+   0.0002,
+   0.0005
+  ],
+  "5|rf|type|sensory_periphery": [
+   0.0068,
+   0.0058
+  ],
+  "10|logreg|neuron|all": [
+   0.002,
+   0.0013
+  ],
+  "10|logreg|neuron|higher_order": [
+   0.0001,
+   0.0001
+  ],
+  "10|logreg|neuron|motor_periphery": [
+   0.0154,
+   0.0044
+  ],
+  "10|logreg|neuron|optic_lobe": [
+   0.0015,
+   0.0023
+  ],
+  "10|logreg|neuron|sensory_periphery": [
+   0.0065,
+   0.0043
+  ],
+  "10|logreg|type|all": [
+   0.0027,
+   0.001
+  ],
+  "10|logreg|type|higher_order": [
+   0.0001,
+   0.0001
+  ],
+  "10|logreg|type|motor_periphery": [
+   0.0096,
+   0.0037
+  ],
+  "10|logreg|type|optic_lobe": [
+   0.0004,
+   0.0006
+  ],
+  "10|logreg|type|sensory_periphery": [
+   0.0043,
+   0.0031
+  ],
+  "10|logreg_balanced|neuron|all": [
+   0.0123,
+   0.0071
+  ],
+  "10|logreg_balanced|neuron|higher_order": [
+   0.0035,
+   0.001
+  ],
+  "10|logreg_balanced|neuron|motor_periphery": [
+   0.0811,
+   0.0174
+  ],
+  "10|logreg_balanced|neuron|optic_lobe": [
+   0.0095,
+   0.0108
+  ],
+  "10|logreg_balanced|neuron|sensory_periphery": [
+   0.029,
+   0.0088
+  ],
+  "10|logreg_balanced|type|all": [
+   0.0278,
+   0.0061
+  ],
+  "10|logreg_balanced|type|higher_order": [
+   0.0046,
+   0.0014
+  ],
+  "10|logreg_balanced|type|motor_periphery": [
+   0.0834,
+   0.0174
+  ],
+  "10|logreg_balanced|type|optic_lobe": [
+   0.0025,
+   0.0027
+  ],
+  "10|logreg_balanced|type|sensory_periphery": [
+   0.0609,
+   0.0135
+  ],
+  "10|rf|neuron|all": [
+   0.0025,
+   0.0009
+  ],
+  "10|rf|neuron|higher_order": [
+   0.0004,
+   0.0003
+  ],
+  "10|rf|neuron|motor_periphery": [
+   0.029,
+   0.0103
+  ],
+  "10|rf|neuron|optic_lobe": [
+   0.0005,
+   0.0006
+  ],
+  "10|rf|neuron|sensory_periphery": [
+   0.0181,
+   0.0062
+  ],
+  "10|rf|type|all": [
+   0.0068,
+   0.0011
+  ],
+  "10|rf|type|higher_order": [
+   0.0007,
+   0.0005
+  ],
+  "10|rf|type|motor_periphery": [
+   0.0218,
+   0.0053
+  ],
+  "10|rf|type|optic_lobe": [
+   0.0001,
+   0.0002
+  ],
+  "10|rf|type|sensory_periphery": [
+   0.0146,
+   0.0073
+  ],
+  "15|logreg|neuron|all": [
+   0.0014,
+   0.0005
+  ],
+  "15|logreg|neuron|higher_order": [
+   0.0,
+   0.0001
+  ],
+  "15|logreg|neuron|motor_periphery": [
+   0.0129,
+   0.0041
+  ],
+  "15|logreg|neuron|optic_lobe": [
+   0.0005,
+   0.0006
+  ],
+  "15|logreg|neuron|sensory_periphery": [
+   0.0113,
+   0.0045
+  ],
+  "15|logreg|type|all": [
+   0.0029,
+   0.0003
+  ],
+  "15|logreg|type|higher_order": [
+   0.0001,
+   0.0002
+  ],
+  "15|logreg|type|motor_periphery": [
+   0.0093,
+   0.0029
+  ],
+  "15|logreg|type|optic_lobe": [
+   0.0001,
+   0.0001
+  ],
+  "15|logreg|type|sensory_periphery": [
+   0.0061,
+   0.003
+  ],
+  "15|rf|neuron|all": [
+   0.0024,
+   0.0006
+  ],
+  "15|rf|neuron|higher_order": [
+   0.0006,
+   0.0005
+  ],
+  "15|rf|neuron|motor_periphery": [
+   0.0276,
+   0.0101
+  ],
+  "15|rf|neuron|optic_lobe": [
+   0.0003,
+   0.0001
+  ],
+  "15|rf|neuron|sensory_periphery": [
+   0.0218,
+   0.0138
+  ],
+  "15|rf|type|all": [
+   0.0067,
+   0.0011
+  ],
+  "15|rf|type|higher_order": [
+   0.0007,
+   0.0006
+  ],
+  "15|rf|type|motor_periphery": [
+   0.022,
+   0.005
+  ],
+  "15|rf|type|optic_lobe": [
+   0.0001,
+   0.0002
+  ],
+  "15|rf|type|sensory_periphery": [
+   0.0118,
+   0.0046
+  ]
+ },
+ "efferent_predictions_logreg": {
+  "optic": 34,
+  "sensory": 26,
+  "central": 10,
+  "ascending": 10
+ },
+ "em_priors_logreg_first_split": {
+  "seed": 0,
+  "fold": 0,
+  "em_prior": [
+   0.0481,
+   0.0,
+   0.0132,
+   0.5852,
+   0.097,
+   0.0073,
+   0.2339,
+   0.0149,
+   0.0003,
+   0.0001
+  ],
+  "train_prior": [
+   0.0698,
+   0.0042,
+   0.0131,
+   0.5958,
+   0.0619,
+   0.0031,
+   0.2414,
+   0.0095,
+   0.0008,
+   0.0004
+  ]
+ },
+ "bootstrap_drop_logreg_seed0": {
+  "all": {
+   "drop": -0.07449726433075554,
+   "ci95": [
+    -0.08455832605868092,
+    -0.06429707676229637
+   ]
+  },
+  "optic_lobe": {
+   "drop": -0.08532155676297834,
+   "ci95": [
+    -0.13745203668613007,
+    -0.02746016764285867
+   ]
+  },
+  "sensory_periphery": {
+   "drop": -0.10933065164318051,
+   "ci95": [
+    -0.16442702164066167,
+    -0.05434247195309572
+   ]
+  },
+  "motor_periphery": {
+   "drop": -0.08077330178677739,
+   "ci95": [
+    -0.1140342192030112,
+    -0.04879983195419924
+   ]
+  },
+  "higher_order": {
+   "drop": -0.031866278645566036,
+   "ci95": [
+    -0.03940531574836859,
+    -0.024289247870546215
+   ]
+  }
+ },
+ "eda_counts": {
+  "fafb": {
+   "neurons": 139255,
+   "sensory": 16904,
+   "R1-6": 8452,
+   "region_LA": 9486,
+   "super_class_share": {
+    "optic": 0.5568,
+    "central": 0.2325,
+    "sensory": 0.1214,
+    "visual_projection": 0.0577,
+    "ascending": 0.0126,
+    "descending": 0.0094,
+    "sensory_ascending": 0.0044,
+    "visual_centrifugal": 0.0038,
+    "motor": 0.0008,
+    "endocrine": 0.0006,
+    "unknown": 0.0001
+   }
+  },
+  "malecns": {
+   "neurons": 144414,
+   "sensory": 8918,
+   "R1-6": 0,
+   "region_LA": 1742,
+   "super_class_share": {
+    "optic": 0.619,
+    "central": 0.2227,
+    "visual_projection": 0.0637,
+    "sensory": 0.0618,
+    "ascending": 0.0127,
+    "descending": 0.0091,
+    "visual_centrifugal": 0.0039,
+    "sensory_ascending": 0.0037,
+    "unknown": 0.0021,
+    "motor": 0.0007,
+    "endocrine": 0.0005,
+    "efferent": 0.0001
+   }
+  }
+ },
+ "hparams_counts": {
+  "5|logreg": {
+   "0.1": 3,
+   "0.01": 2
+  },
+  "5|majority": {
+   "nan": 5
+  },
+  "5|rf": {
+   "5.0": 5
+  },
+  "10|logreg": {
+   "0.1": 9,
+   "0.01": 6
+  },
+  "10|logreg_balanced": {
+   "0.1": 9,
+   "0.01": 5,
+   "1.0": 1
+  },
+  "10|majority": {
+   "nan": 15
+  },
+  "10|rf": {
+   "5.0": 15
+  },
+  "15|logreg": {
+   "0.01": 3,
+   "0.1": 2
+  },
+  "15|majority": {
+   "nan": 5
+  },
+  "15|rf": {
+   "5.0": 5
+  }
+ },
+ "runtime_min": 85.4,
+ "cells": {
+  "logreg|cross|neuron|all|all": {
+   "cost": [
+    0.137,
+    0.0679
+   ],
+   "accuracy": [
+    0.9195,
+    0.035
+   ],
+   "n": 27383.8
+  },
+  "logreg|cross|neuron|dim|dimorphic": {
+   "cost": [
+    0.1649,
+    0.181
+   ],
+   "accuracy": [
+    0.9141,
+    0.0892
+   ],
+   "n": 135.4
+  },
+  "logreg|cross|neuron|dim|isomorphic": {
+   "cost": [
+    0.1373,
+    0.0694
+   ],
+   "accuracy": [
+    0.9193,
+    0.0358
+   ],
+   "n": 27221.0
+  },
+  "logreg|cross|neuron|region4|higher_order": {
+   "cost": [
+    0.047,
+    0.0151
+   ],
+   "accuracy": [
+    0.9611,
+    0.0126
+   ],
+   "n": 5452.0
+  },
+  "logreg|cross|neuron|region4|motor_periphery": {
+   "cost": [
+    0.4973,
+    0.1571
+   ],
+   "accuracy": [
+    0.7336,
+    0.079
+   ],
+   "n": 1281.0
+  },
+  "logreg|cross|neuron|region4|optic_lobe": {
+   "cost": [
+    0.1327,
+    0.0873
+   ],
+   "accuracy": [
+    0.9223,
+    0.0458
+   ],
+   "n": 19610.6
+  },
+  "logreg|cross|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.2319,
+    0.0683
+   ],
+   "accuracy": [
+    0.8759,
+    0.0389
+   ],
+   "n": 988.8
+  },
+  "logreg|cross|type|all|all": {
+   "cost": [
+    0.1676,
+    0.0253
+   ],
+   "accuracy": [
+    0.9028,
+    0.0144
+   ],
+   "n": 27383.8
+  },
+  "logreg|cross|type|dim|dimorphic": {
+   "cost": [
+    0.2816,
+    0.208
+   ],
+   "accuracy": [
+    0.8568,
+    0.1026
+   ],
+   "n": 135.4
+  },
+  "logreg|cross|type|dim|isomorphic": {
+   "cost": [
+    0.1631,
+    0.0253
+   ],
+   "accuracy": [
+    0.905,
+    0.0144
+   ],
+   "n": 27221.0
+  },
+  "logreg|cross|type|region4|higher_order": {
+   "cost": [
+    0.0516,
+    0.013
+   ],
+   "accuracy": [
+    0.9638,
+    0.0083
+   ],
+   "n": 5452.0
+  },
+  "logreg|cross|type|region4|motor_periphery": {
+   "cost": [
+    0.412,
+    0.0487
+   ],
+   "accuracy": [
+    0.7842,
+    0.0278
+   ],
+   "n": 1281.0
+  },
+  "logreg|cross|type|region4|optic_lobe": {
+   "cost": [
+    0.1812,
+    0.0535
+   ],
+   "accuracy": [
+    0.8422,
+    0.0376
+   ],
+   "n": 19610.6
+  },
+  "logreg|cross|type|region4|sensory_periphery": {
+   "cost": [
+    0.2717,
+    0.0565
+   ],
+   "accuracy": [
+    0.8566,
+    0.0306
+   ],
+   "n": 988.8
+  },
+  "logreg|unmatched|neuron|all|all": {
+   "cost": [
+    0.1854,
+    0.0138
+   ],
+   "accuracy": [
+    0.8502,
+    0.0073
+   ],
+   "n": 7177.0
+  },
+  "logreg|unmatched|neuron|dim|dimorphic": {
+   "cost": [
+    0.0523,
+    0.0058
+   ],
+   "accuracy": [
+    0.9477,
+    0.0058
+   ],
+   "n": 88.0
+  },
+  "logreg|unmatched|neuron|dim|isomorphic": {
+   "cost": [
+    0.2174,
+    0.016
+   ],
+   "accuracy": [
+    0.821,
+    0.0085
+   ],
+   "n": 5692.0
+  },
+  "logreg|unmatched|neuron|dim|sex_specific": {
+   "cost": [
+    0.0148,
+    0.0031
+   ],
+   "accuracy": [
+    0.9914,
+    0.0017
+   ],
+   "n": 1227.0
+  },
+  "logreg|unmatched|neuron|region4|higher_order": {
+   "cost": [
+    0.0431,
+    0.0055
+   ],
+   "accuracy": [
+    0.9638,
+    0.0041
+   ],
+   "n": 4600.0
+  },
+  "logreg|unmatched|neuron|region4|motor_periphery": {
+   "cost": [
+    0.4911,
+    0.035
+   ],
+   "accuracy": [
+    0.5899,
+    0.0144
+   ],
+   "n": 1631.0
+  },
+  "logreg|unmatched|neuron|region4|optic_lobe": {
+   "cost": [
+    0.2795,
+    0.0214
+   ],
+   "accuracy": [
+    0.7849,
+    0.0176
+   ],
+   "n": 498.0
+  },
+  "logreg|unmatched|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.2672,
+    0.0347
+   ],
+   "accuracy": [
+    0.8388,
+    0.0167
+   ],
+   "n": 273.0
+  },
+  "logreg|unmatched|type|all|all": {
+   "cost": [
+    0.22,
+    0.0171
+   ],
+   "accuracy": [
+    0.8502,
+    0.0113
+   ],
+   "n": 7177.0
+  },
+  "logreg|unmatched|type|dim|dimorphic": {
+   "cost": [
+    0.0608,
+    0.0122
+   ],
+   "accuracy": [
+    0.9392,
+    0.0122
+   ],
+   "n": 88.0
+  },
+  "logreg|unmatched|type|dim|isomorphic": {
+   "cost": [
+    0.254,
+    0.0193
+   ],
+   "accuracy": [
+    0.8243,
+    0.0132
+   ],
+   "n": 5692.0
+  },
+  "logreg|unmatched|type|dim|sex_specific": {
+   "cost": [
+    0.0302,
+    0.0085
+   ],
+   "accuracy": [
+    0.9837,
+    0.0043
+   ],
+   "n": 1227.0
+  },
+  "logreg|unmatched|type|region4|higher_order": {
+   "cost": [
+    0.0636,
+    0.0071
+   ],
+   "accuracy": [
+    0.9492,
+    0.006
+   ],
+   "n": 4600.0
+  },
+  "logreg|unmatched|type|region4|motor_periphery": {
+   "cost": [
+    0.4239,
+    0.0349
+   ],
+   "accuracy": [
+    0.71,
+    0.0206
+   ],
+   "n": 1631.0
+  },
+  "logreg|unmatched|type|region4|optic_lobe": {
+   "cost": [
+    0.6965,
+    0.0447
+   ],
+   "accuracy": [
+    0.5955,
+    0.0244
+   ],
+   "n": 498.0
+  },
+  "logreg|unmatched|type|region4|sensory_periphery": {
+   "cost": [
+    0.2677,
+    0.0513
+   ],
+   "accuracy": [
+    0.851,
+    0.025
+   ],
+   "n": 273.0
+  },
+  "logreg|within|neuron|all|all": {
+   "cost": [
+    0.1489,
+    0.077
+   ],
+   "accuracy": [
+    0.9084,
+    0.041
+   ],
+   "n": 27848.2
+  },
+  "logreg|within|neuron|dim|dimorphic": {
+   "cost": [
+    0.2145,
+    0.2528
+   ],
+   "accuracy": [
+    0.8826,
+    0.1134
+   ],
+   "n": 130.4
+  },
+  "logreg|within|neuron|dim|isomorphic": {
+   "cost": [
+    0.1489,
+    0.0785
+   ],
+   "accuracy": [
+    0.9083,
+    0.0419
+   ],
+   "n": 27613.0
+  },
+  "logreg|within|neuron|dim|sex_specific": {
+   "cost": [
+    0.1633,
+    0.12
+   ],
+   "accuracy": [
+    0.9002,
+    0.0599
+   ],
+   "n": 54.0
+  },
+  "logreg|within|neuron|region4|higher_order": {
+   "cost": [
+    0.0761,
+    0.0181
+   ],
+   "accuracy": [
+    0.9368,
+    0.0148
+   ],
+   "n": 6032.0
+  },
+  "logreg|within|neuron|region4|motor_periphery": {
+   "cost": [
+    0.5116,
+    0.1526
+   ],
+   "accuracy": [
+    0.7007,
+    0.0708
+   ],
+   "n": 1924.0
+  },
+  "logreg|within|neuron|region4|optic_lobe": {
+   "cost": [
+    0.1202,
+    0.1071
+   ],
+   "accuracy": [
+    0.9263,
+    0.0578
+   ],
+   "n": 18752.2
+  },
+  "logreg|within|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.325,
+    0.0565
+   ],
+   "accuracy": [
+    0.8338,
+    0.0308
+   ],
+   "n": 1083.8
+  },
+  "logreg|within|type|all|all": {
+   "cost": [
+    0.2439,
+    0.0174
+   ],
+   "accuracy": [
+    0.8427,
+    0.0097
+   ],
+   "n": 27848.2
+  },
+  "logreg|within|type|dim|dimorphic": {
+   "cost": [
+    0.316,
+    0.262
+   ],
+   "accuracy": [
+    0.8365,
+    0.1236
+   ],
+   "n": 130.4
+  },
+  "logreg|within|type|dim|isomorphic": {
+   "cost": [
+    0.2409,
+    0.0165
+   ],
+   "accuracy": [
+    0.8436,
+    0.0093
+   ],
+   "n": 27613.0
+  },
+  "logreg|within|type|dim|sex_specific": {
+   "cost": [
+    0.2937,
+    0.228
+   ],
+   "accuracy": [
+    0.8421,
+    0.1116
+   ],
+   "n": 54.0
+  },
+  "logreg|within|type|region4|higher_order": {
+   "cost": [
+    0.0841,
+    0.0131
+   ],
+   "accuracy": [
+    0.9396,
+    0.0085
+   ],
+   "n": 6032.0
+  },
+  "logreg|within|type|region4|motor_periphery": {
+   "cost": [
+    0.4992,
+    0.037
+   ],
+   "accuracy": [
+    0.6753,
+    0.0208
+   ],
+   "n": 1924.0
+  },
+  "logreg|within|type|region4|optic_lobe": {
+   "cost": [
+    0.2645,
+    0.0305
+   ],
+   "accuracy": [
+    0.8316,
+    0.0186
+   ],
+   "n": 18752.2
+  },
+  "logreg|within|type|region4|sensory_periphery": {
+   "cost": [
+    0.3769,
+    0.0584
+   ],
+   "accuracy": [
+    0.8041,
+    0.0297
+   ],
+   "n": 1083.8
+  },
+  "logreg|within_shared|neuron|all|all": {
+   "cost": [
+    0.1414,
+    0.0813
+   ],
+   "accuracy": [
+    0.9155,
+    0.0431
+   ],
+   "n": 26447.2
+  },
+  "logreg|within_shared|neuron|dim|dimorphic": {
+   "cost": [
+    0.2471,
+    0.2896
+   ],
+   "accuracy": [
+    0.871,
+    0.1272
+   ],
+   "n": 114.2
+  },
+  "logreg|within_shared|neuron|dim|isomorphic": {
+   "cost": [
+    0.1412,
+    0.0825
+   ],
+   "accuracy": [
+    0.9155,
+    0.0439
+   ],
+   "n": 26303.6
+  },
+  "logreg|within_shared|neuron|region4|higher_order": {
+   "cost": [
+    0.072,
+    0.0198
+   ],
+   "accuracy": [
+    0.9393,
+    0.0162
+   ],
+   "n": 5292.4
+  },
+  "logreg|within_shared|neuron|region4|motor_periphery": {
+   "cost": [
+    0.4916,
+    0.1745
+   ],
+   "accuracy": [
+    0.7514,
+    0.0872
+   ],
+   "n": 1556.4
+  },
+  "logreg|within_shared|neuron|region4|optic_lobe": {
+   "cost": [
+    0.1178,
+    0.1078
+   ],
+   "accuracy": [
+    0.928,
+    0.0581
+   ],
+   "n": 18581.8
+  },
+  "logreg|within_shared|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.3117,
+    0.0647
+   ],
+   "accuracy": [
+    0.8431,
+    0.0346
+   ],
+   "n": 967.2
+  },
+  "logreg|within_shared|type|all|all": {
+   "cost": [
+    0.1899,
+    0.0186
+   ],
+   "accuracy": [
+    0.8909,
+    0.0104
+   ],
+   "n": 26447.2
+  },
+  "logreg|within_shared|type|dim|dimorphic": {
+   "cost": [
+    0.3747,
+    0.3099
+   ],
+   "accuracy": [
+    0.8109,
+    0.1472
+   ],
+   "n": 114.2
+  },
+  "logreg|within_shared|type|dim|isomorphic": {
+   "cost": [
+    0.1848,
+    0.0182
+   ],
+   "accuracy": [
+    0.8932,
+    0.0103
+   ],
+   "n": 26303.6
+  },
+  "logreg|within_shared|type|region4|higher_order": {
+   "cost": [
+    0.0711,
+    0.014
+   ],
+   "accuracy": [
+    0.9488,
+    0.0088
+   ],
+   "n": 5292.4
+  },
+  "logreg|within_shared|type|region4|motor_periphery": {
+   "cost": [
+    0.4248,
+    0.042
+   ],
+   "accuracy": [
+    0.7855,
+    0.0228
+   ],
+   "n": 1556.4
+  },
+  "logreg|within_shared|type|region4|optic_lobe": {
+   "cost": [
+    0.1473,
+    0.0304
+   ],
+   "accuracy": [
+    0.8644,
+    0.0261
+   ],
+   "n": 18581.8
+  },
+  "logreg|within_shared|type|region4|sensory_periphery": {
+   "cost": [
+    0.3716,
+    0.07
+   ],
+   "accuracy": [
+    0.8092,
+    0.0352
+   ],
+   "n": 967.2
+  },
+  "logreg_balanced|cross|neuron|all|all": {
+   "cost": [
+    0.2464,
+    0.1068
+   ],
+   "accuracy": [
+    0.8313,
+    0.0618
+   ],
+   "n": 27383.8
+  },
+  "logreg_balanced|cross|neuron|dim|dimorphic": {
+   "cost": [
+    0.2585,
+    0.1356
+   ],
+   "accuracy": [
+    0.8384,
+    0.1359
+   ],
+   "n": 135.4
+  },
+  "logreg_balanced|cross|neuron|dim|isomorphic": {
+   "cost": [
+    0.2462,
+    0.107
+   ],
+   "accuracy": [
+    0.8319,
+    0.0609
+   ],
+   "n": 27221.0
+  },
+  "logreg_balanced|cross|neuron|region4|higher_order": {
+   "cost": [
+    0.0867,
+    0.0244
+   ],
+   "accuracy": [
+    0.9346,
+    0.0192
+   ],
+   "n": 5452.0
+  },
+  "logreg_balanced|cross|neuron|region4|motor_periphery": {
+   "cost": [
+    0.9602,
+    0.0656
+   ],
+   "accuracy": [
+    0.4773,
+    0.0668
+   ],
+   "n": 1281.0
+  },
+  "logreg_balanced|cross|neuron|region4|optic_lobe": {
+   "cost": [
+    0.2356,
+    0.1396
+   ],
+   "accuracy": [
+    0.83,
+    0.0812
+   ],
+   "n": 19610.6
+  },
+  "logreg_balanced|cross|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.4464,
+    0.0897
+   ],
+   "accuracy": [
+    0.7273,
+    0.053
+   ],
+   "n": 988.8
+  },
+  "logreg_balanced|cross|type|all|all": {
+   "cost": [
+    0.3796,
+    0.0338
+   ],
+   "accuracy": [
+    0.7893,
+    0.0195
+   ],
+   "n": 27383.8
+  },
+  "logreg_balanced|cross|type|dim|dimorphic": {
+   "cost": [
+    0.2994,
+    0.161
+   ],
+   "accuracy": [
+    0.8613,
+    0.0522
+   ],
+   "n": 135.4
+  },
+  "logreg_balanced|cross|type|dim|isomorphic": {
+   "cost": [
+    0.3798,
+    0.0343
+   ],
+   "accuracy": [
+    0.7889,
+    0.0198
+   ],
+   "n": 27221.0
+  },
+  "logreg_balanced|cross|type|region4|higher_order": {
+   "cost": [
+    0.1039,
+    0.0145
+   ],
+   "accuracy": [
+    0.9264,
+    0.0117
+   ],
+   "n": 5452.0
+  },
+  "logreg_balanced|cross|type|region4|motor_periphery": {
+   "cost": [
+    0.979,
+    0.0587
+   ],
+   "accuracy": [
+    0.5164,
+    0.028
+   ],
+   "n": 1281.0
+  },
+  "logreg_balanced|cross|type|region4|optic_lobe": {
+   "cost": [
+    0.269,
+    0.0603
+   ],
+   "accuracy": [
+    0.7578,
+    0.0488
+   ],
+   "n": 19610.6
+  },
+  "logreg_balanced|cross|type|region4|sensory_periphery": {
+   "cost": [
+    0.7976,
+    0.1159
+   ],
+   "accuracy": [
+    0.5743,
+    0.0579
+   ],
+   "n": 988.8
+  },
+  "logreg_balanced|unmatched|neuron|all|all": {
+   "cost": [
+    0.3415,
+    0.0277
+   ],
+   "accuracy": [
+    0.7868,
+    0.0103
+   ],
+   "n": 7177.0
+  },
+  "logreg_balanced|unmatched|neuron|dim|dimorphic": {
+   "cost": [
+    0.1576,
+    0.0816
+   ],
+   "accuracy": [
+    0.8485,
+    0.0786
+   ],
+   "n": 88.0
+  },
+  "logreg_balanced|unmatched|neuron|dim|isomorphic": {
+   "cost": [
+    0.3613,
+    0.0332
+   ],
+   "accuracy": [
+    0.7726,
+    0.0114
+   ],
+   "n": 5692.0
+  },
+  "logreg_balanced|unmatched|neuron|dim|sex_specific": {
+   "cost": [
+    0.2654,
+    0.0715
+   ],
+   "accuracy": [
+    0.8448,
+    0.0357
+   ],
+   "n": 1227.0
+  },
+  "logreg_balanced|unmatched|neuron|region4|higher_order": {
+   "cost": [
+    0.1296,
+    0.0182
+   ],
+   "accuracy": [
+    0.9109,
+    0.0084
+   ],
+   "n": 4600.0
+  },
+  "logreg_balanced|unmatched|neuron|region4|motor_periphery": {
+   "cost": [
+    0.6138,
+    0.0197
+   ],
+   "accuracy": [
+    0.5892,
+    0.0153
+   ],
+   "n": 1631.0
+  },
+  "logreg_balanced|unmatched|neuron|region4|optic_lobe": {
+   "cost": [
+    0.7337,
+    0.1921
+   ],
+   "accuracy": [
+    0.6187,
+    0.0587
+   ],
+   "n": 498.0
+  },
+  "logreg_balanced|unmatched|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.9346,
+    0.1021
+   ],
+   "accuracy": [
+    0.453,
+    0.0448
+   ],
+   "n": 273.0
+  },
+  "logreg_balanced|unmatched|type|all|all": {
+   "cost": [
+    0.4157,
+    0.0215
+   ],
+   "accuracy": [
+    0.7601,
+    0.007
+   ],
+   "n": 7177.0
+  },
+  "logreg_balanced|unmatched|type|dim|dimorphic": {
+   "cost": [
+    0.0819,
+    0.0563
+   ],
+   "accuracy": [
+    0.9266,
+    0.0304
+   ],
+   "n": 88.0
+  },
+  "logreg_balanced|unmatched|type|dim|isomorphic": {
+   "cost": [
+    0.4717,
+    0.0287
+   ],
+   "accuracy": [
+    0.7251,
+    0.0106
+   ],
+   "n": 5692.0
+  },
+  "logreg_balanced|unmatched|type|dim|sex_specific": {
+   "cost": [
+    0.1923,
+    0.0587
+   ],
+   "accuracy": [
+    0.901,
+    0.0297
+   ],
+   "n": 1227.0
+  },
+  "logreg_balanced|unmatched|type|region4|higher_order": {
+   "cost": [
+    0.1428,
+    0.0163
+   ],
+   "accuracy": [
+    0.9021,
+    0.0077
+   ],
+   "n": 4600.0
+  },
+  "logreg_balanced|unmatched|type|region4|motor_periphery": {
+   "cost": [
+    0.7517,
+    0.0293
+   ],
+   "accuracy": [
+    0.5688,
+    0.0155
+   ],
+   "n": 1631.0
+  },
+  "logreg_balanced|unmatched|type|region4|optic_lobe": {
+   "cost": [
+    0.8661,
+    0.0564
+   ],
+   "accuracy": [
+    0.4947,
+    0.0357
+   ],
+   "n": 498.0
+  },
+  "logreg_balanced|unmatched|type|region4|sensory_periphery": {
+   "cost": [
+    0.828,
+    0.0905
+   ],
+   "accuracy": [
+    0.5246,
+    0.0465
+   ],
+   "n": 273.0
+  },
+  "logreg_balanced|within|neuron|all|all": {
+   "cost": [
+    0.2597,
+    0.125
+   ],
+   "accuracy": [
+    0.8333,
+    0.0723
+   ],
+   "n": 27848.2
+  },
+  "logreg_balanced|within|neuron|dim|dimorphic": {
+   "cost": [
+    0.4597,
+    0.2313
+   ],
+   "accuracy": [
+    0.7397,
+    0.0935
+   ],
+   "n": 130.4
+  },
+  "logreg_balanced|within|neuron|dim|isomorphic": {
+   "cost": [
+    0.2589,
+    0.1259
+   ],
+   "accuracy": [
+    0.8339,
+    0.0722
+   ],
+   "n": 27613.0
+  },
+  "logreg_balanced|within|neuron|dim|sex_specific": {
+   "cost": [
+    0.3233,
+    0.1691
+   ],
+   "accuracy": [
+    0.816,
+    0.0843
+   ],
+   "n": 54.0
+  },
+  "logreg_balanced|within|neuron|region4|higher_order": {
+   "cost": [
+    0.1281,
+    0.0334
+   ],
+   "accuracy": [
+    0.9071,
+    0.0237
+   ],
+   "n": 6032.0
+  },
+  "logreg_balanced|within|neuron|region4|motor_periphery": {
+   "cost": [
+    0.8861,
+    0.0465
+   ],
+   "accuracy": [
+    0.4995,
+    0.0418
+   ],
+   "n": 1924.0
+  },
+  "logreg_balanced|within|neuron|region4|optic_lobe": {
+   "cost": [
+    0.2017,
+    0.1582
+   ],
+   "accuracy": [
+    0.8552,
+    0.0967
+   ],
+   "n": 18752.2
+  },
+  "logreg_balanced|within|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.6799,
+    0.1083
+   ],
+   "accuracy": [
+    0.7075,
+    0.0376
+   ],
+   "n": 1083.8
+  },
+  "logreg_balanced|within|type|all|all": {
+   "cost": [
+    0.4314,
+    0.0183
+   ],
+   "accuracy": [
+    0.7644,
+    0.0129
+   ],
+   "n": 27848.2
+  },
+  "logreg_balanced|within|type|dim|dimorphic": {
+   "cost": [
+    0.4874,
+    0.2378
+   ],
+   "accuracy": [
+    0.7682,
+    0.07
+   ],
+   "n": 130.4
+  },
+  "logreg_balanced|within|type|dim|isomorphic": {
+   "cost": [
+    0.4309,
+    0.0192
+   ],
+   "accuracy": [
+    0.7643,
+    0.0131
+   ],
+   "n": 27613.0
+  },
+  "logreg_balanced|within|type|dim|sex_specific": {
+   "cost": [
+    0.2894,
+    0.1468
+   ],
+   "accuracy": [
+    0.8357,
+    0.0817
+   ],
+   "n": 54.0
+  },
+  "logreg_balanced|within|type|region4|higher_order": {
+   "cost": [
+    0.1355,
+    0.017
+   ],
+   "accuracy": [
+    0.9077,
+    0.0117
+   ],
+   "n": 6032.0
+  },
+  "logreg_balanced|within|type|region4|motor_periphery": {
+   "cost": [
+    0.8875,
+    0.0395
+   ],
+   "accuracy": [
+    0.5425,
+    0.0193
+   ],
+   "n": 1924.0
+  },
+  "logreg_balanced|within|type|region4|optic_lobe": {
+   "cost": [
+    0.4109,
+    0.0485
+   ],
+   "accuracy": [
+    0.7354,
+    0.0288
+   ],
+   "n": 18752.2
+  },
+  "logreg_balanced|within|type|region4|sensory_periphery": {
+   "cost": [
+    0.8056,
+    0.0526
+   ],
+   "accuracy": [
+    0.6229,
+    0.03
+   ],
+   "n": 1083.8
+  },
+  "logreg_balanced|within_shared|neuron|all|all": {
+   "cost": [
+    0.2488,
+    0.1322
+   ],
+   "accuracy": [
+    0.839,
+    0.0764
+   ],
+   "n": 26447.2
+  },
+  "logreg_balanced|within_shared|neuron|dim|dimorphic": {
+   "cost": [
+    0.5148,
+    0.2695
+   ],
+   "accuracy": [
+    0.7238,
+    0.1054
+   ],
+   "n": 114.2
+  },
+  "logreg_balanced|within_shared|neuron|dim|isomorphic": {
+   "cost": [
+    0.2481,
+    0.1328
+   ],
+   "accuracy": [
+    0.8395,
+    0.0761
+   ],
+   "n": 26303.6
+  },
+  "logreg_balanced|within_shared|neuron|region4|higher_order": {
+   "cost": [
+    0.1162,
+    0.0332
+   ],
+   "accuracy": [
+    0.9136,
+    0.0238
+   ],
+   "n": 5292.4
+  },
+  "logreg_balanced|within_shared|neuron|region4|motor_periphery": {
+   "cost": [
+    0.9147,
+    0.0604
+   ],
+   "accuracy": [
+    0.4955,
+    0.0473
+   ],
+   "n": 1556.4
+  },
+  "logreg_balanced|within_shared|neuron|region4|optic_lobe": {
+   "cost": [
+    0.1989,
+    0.1591
+   ],
+   "accuracy": [
+    0.8567,
+    0.0972
+   ],
+   "n": 18581.8
+  },
+  "logreg_balanced|within_shared|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.6547,
+    0.124
+   ],
+   "accuracy": [
+    0.7196,
+    0.0408
+   ],
+   "n": 967.2
+  },
+  "logreg_balanced|within_shared|type|all|all": {
+   "cost": [
+    0.3907,
+    0.0218
+   ],
+   "accuracy": [
+    0.7892,
+    0.0136
+   ],
+   "n": 26447.2
+  },
+  "logreg_balanced|within_shared|type|dim|dimorphic": {
+   "cost": [
+    0.5486,
+    0.2603
+   ],
+   "accuracy": [
+    0.7515,
+    0.0775
+   ],
+   "n": 114.2
+  },
+  "logreg_balanced|within_shared|type|dim|isomorphic": {
+   "cost": [
+    0.3882,
+    0.0233
+   ],
+   "accuracy": [
+    0.7898,
+    0.0143
+   ],
+   "n": 26303.6
+  },
+  "logreg_balanced|within_shared|type|region4|higher_order": {
+   "cost": [
+    0.1123,
+    0.0148
+   ],
+   "accuracy": [
+    0.9212,
+    0.0101
+   ],
+   "n": 5292.4
+  },
+  "logreg_balanced|within_shared|type|region4|motor_periphery": {
+   "cost": [
+    0.9505,
+    0.0398
+   ],
+   "accuracy": [
+    0.5357,
+    0.0221
+   ],
+   "n": 1556.4
+  },
+  "logreg_balanced|within_shared|type|region4|optic_lobe": {
+   "cost": [
+    0.205,
+    0.0363
+   ],
+   "accuracy": [
+    0.8122,
+    0.0309
+   ],
+   "n": 18581.8
+  },
+  "logreg_balanced|within_shared|type|region4|sensory_periphery": {
+   "cost": [
+    0.8708,
+    0.0959
+   ],
+   "accuracy": [
+    0.5753,
+    0.0443
+   ],
+   "n": 967.2
+  },
+  "majority|cross|neuron|all|all": {
+   "cost": [
+    0.4371,
+    0.089
+   ],
+   "accuracy": [
+    0.6476,
+    0.0644
+   ],
+   "n": 27383.8
+  },
+  "majority|cross|neuron|dim|dimorphic": {
+   "cost": [
+    0.9994,
+    0.4709
+   ],
+   "accuracy": [
+    0.1775,
+    0.3689
+   ],
+   "n": 135.4
+  },
+  "majority|cross|neuron|dim|isomorphic": {
+   "cost": [
+    0.4361,
+    0.0913
+   ],
+   "accuracy": [
+    0.6483,
+    0.066
+   ],
+   "n": 27221.0
+  },
+  "majority|cross|neuron|region4|higher_order": {
+   "cost": [
+    1.0186,
+    0.0054
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 5452.0
+  },
+  "majority|cross|neuron|region4|motor_periphery": {
+   "cost": [
+    1.4822,
+    0.1012
+   ],
+   "accuracy": [
+    0.0002,
+    0.0003
+   ],
+   "n": 1281.0
+  },
+  "majority|cross|neuron|region4|optic_lobe": {
+   "cost": [
+    0.14,
+    0.074
+   ],
+   "accuracy": [
+    0.9044,
+    0.0385
+   ],
+   "n": 19610.6
+  },
+  "majority|cross|neuron|region4|sensory_periphery": {
+   "cost": [
+    1.6925,
+    0.0561
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 988.8
+  },
+  "majority|cross|type|all|all": {
+   "cost": [
+    1.1074,
+    0.0134
+   ],
+   "accuracy": [
+    0.0296,
+    0.0033
+   ],
+   "n": 27383.8
+  },
+  "majority|cross|type|dim|dimorphic": {
+   "cost": [
+    1.2819,
+    0.1659
+   ],
+   "accuracy": [
+    0.0201,
+    0.0529
+   ],
+   "n": 135.4
+  },
+  "majority|cross|type|dim|isomorphic": {
+   "cost": [
+    1.1023,
+    0.0128
+   ],
+   "accuracy": [
+    0.03,
+    0.0034
+   ],
+   "n": 27221.0
+  },
+  "majority|cross|type|region4|higher_order": {
+   "cost": [
+    1.0283,
+    0.0042
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 5452.0
+  },
+  "majority|cross|type|region4|motor_periphery": {
+   "cost": [
+    1.3938,
+    0.0328
+   ],
+   "accuracy": [
+    0.0,
+    0.0001
+   ],
+   "n": 1281.0
+  },
+  "majority|cross|type|region4|optic_lobe": {
+   "cost": [
+    0.5391,
+    0.0514
+   ],
+   "accuracy": [
+    0.4849,
+    0.0453
+   ],
+   "n": 19610.6
+  },
+  "majority|cross|type|region4|sensory_periphery": {
+   "cost": [
+    1.2928,
+    0.0488
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 988.8
+  },
+  "majority|unmatched|neuron|all|all": {
+   "cost": [
+    1.1689,
+    0.0
+   ],
+   "accuracy": [
+    0.0355,
+    0.0
+   ],
+   "n": 7177.0
+  },
+  "majority|unmatched|neuron|dim|dimorphic": {
+   "cost": [
+    1.0682,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 88.0
+  },
+  "majority|unmatched|neuron|dim|isomorphic": {
+   "cost": [
+    1.2147,
+    0.0
+   ],
+   "accuracy": [
+    0.0241,
+    0.0
+   ],
+   "n": 5692.0
+  },
+  "majority|unmatched|neuron|dim|sex_specific": {
+   "cost": [
+    0.9275,
+    0.0
+   ],
+   "accuracy": [
+    0.0962,
+    0.0
+   ],
+   "n": 1227.0
+  },
+  "majority|unmatched|neuron|region4|higher_order": {
+   "cost": [
+    1.0178,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 4600.0
+  },
+  "majority|unmatched|neuron|region4|motor_periphery": {
+   "cost": [
+    1.6426,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 1631.0
+  },
+  "majority|unmatched|neuron|region4|optic_lobe": {
+   "cost": [
+    0.6586,
+    0.0
+   ],
+   "accuracy": [
+    0.512,
+    0.0
+   ],
+   "n": 498.0
+  },
+  "majority|unmatched|neuron|region4|sensory_periphery": {
+   "cost": [
+    1.3663,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 273.0
+  },
+  "majority|unmatched|type|all|all": {
+   "cost": [
+    1.1587,
+    0.0
+   ],
+   "accuracy": [
+    0.0435,
+    0.0
+   ],
+   "n": 7177.0
+  },
+  "majority|unmatched|type|dim|dimorphic": {
+   "cost": [
+    1.0799,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 88.0
+  },
+  "majority|unmatched|type|dim|isomorphic": {
+   "cost": [
+    1.1733,
+    0.0
+   ],
+   "accuracy": [
+    0.0528,
+    0.0
+   ],
+   "n": 5692.0
+  },
+  "majority|unmatched|type|dim|sex_specific": {
+   "cost": [
+    1.04,
+    0.0
+   ],
+   "accuracy": [
+    0.012,
+    0.0
+   ],
+   "n": 1227.0
+  },
+  "majority|unmatched|type|region4|higher_order": {
+   "cost": [
+    1.0243,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 4600.0
+  },
+  "majority|unmatched|type|region4|motor_periphery": {
+   "cost": [
+    1.6066,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 1631.0
+  },
+  "majority|unmatched|type|region4|optic_lobe": {
+   "cost": [
+    0.2716,
+    0.0
+   ],
+   "accuracy": [
+    0.7398,
+    0.0
+   ],
+   "n": 498.0
+  },
+  "majority|unmatched|type|region4|sensory_periphery": {
+   "cost": [
+    1.2908,
+    0.0
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 273.0
+  },
+  "majority|within|neuron|all|all": {
+   "cost": [
+    0.5922,
+    0.211
+   ],
+   "accuracy": [
+    0.5569,
+    0.1057
+   ],
+   "n": 27848.2
+  },
+  "majority|within|neuron|dim|dimorphic": {
+   "cost": [
+    0.9868,
+    0.4126
+   ],
+   "accuracy": [
+    0.1595,
+    0.3318
+   ],
+   "n": 130.4
+  },
+  "majority|within|neuron|dim|isomorphic": {
+   "cost": [
+    0.5905,
+    0.2162
+   ],
+   "accuracy": [
+    0.5592,
+    0.1085
+   ],
+   "n": 27613.0
+  },
+  "majority|within|neuron|dim|sex_specific": {
+   "cost": [
+    1.0733,
+    0.0689
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 54.0
+  },
+  "majority|within|neuron|region4|higher_order": {
+   "cost": [
+    1.0191,
+    0.0051
+   ],
+   "accuracy": [
+    0.0001,
+    0.0001
+   ],
+   "n": 6032.0
+  },
+  "majority|within|neuron|region4|motor_periphery": {
+   "cost": [
+    1.5136,
+    0.0972
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 1924.0
+  },
+  "majority|within|neuron|region4|optic_lobe": {
+   "cost": [
+    0.2805,
+    0.3064
+   ],
+   "accuracy": [
+    0.8306,
+    0.1497
+   ],
+   "n": 18752.2
+  },
+  "majority|within|neuron|region4|sensory_periphery": {
+   "cost": [
+    1.7126,
+    0.0439
+   ],
+   "accuracy": [
+    0.003,
+    0.001
+   ],
+   "n": 1083.8
+  },
+  "majority|within|type|all|all": {
+   "cost": [
+    1.1129,
+    0.0119
+   ],
+   "accuracy": [
+    0.0842,
+    0.0046
+   ],
+   "n": 27848.2
+  },
+  "majority|within|type|dim|dimorphic": {
+   "cost": [
+    1.2334,
+    0.1329
+   ],
+   "accuracy": [
+    0.0133,
+    0.0298
+   ],
+   "n": 130.4
+  },
+  "majority|within|type|dim|isomorphic": {
+   "cost": [
+    1.1091,
+    0.0116
+   ],
+   "accuracy": [
+    0.0858,
+    0.0048
+   ],
+   "n": 27613.0
+  },
+  "majority|within|type|dim|sex_specific": {
+   "cost": [
+    1.1584,
+    0.1204
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 54.0
+  },
+  "majority|within|type|region4|higher_order": {
+   "cost": [
+    1.0345,
+    0.0042
+   ],
+   "accuracy": [
+    0.0,
+    0.0001
+   ],
+   "n": 6032.0
+  },
+  "majority|within|type|region4|motor_periphery": {
+   "cost": [
+    1.4926,
+    0.026
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 1924.0
+  },
+  "majority|within|type|region4|optic_lobe": {
+   "cost": [
+    0.2666,
+    0.0279
+   ],
+   "accuracy": [
+    0.7403,
+    0.0248
+   ],
+   "n": 18752.2
+  },
+  "majority|within|type|region4|sensory_periphery": {
+   "cost": [
+    1.4997,
+    0.0315
+   ],
+   "accuracy": [
+    0.0185,
+    0.0052
+   ],
+   "n": 1083.8
+  },
+  "majority|within_shared|neuron|all|all": {
+   "cost": [
+    0.5632,
+    0.2216
+   ],
+   "accuracy": [
+    0.5814,
+    0.1107
+   ],
+   "n": 26447.2
+  },
+  "majority|within_shared|neuron|dim|dimorphic": {
+   "cost": [
+    1.0068,
+    0.4584
+   ],
+   "accuracy": [
+    0.1723,
+    0.3586
+   ],
+   "n": 114.2
+  },
+  "majority|within_shared|neuron|dim|isomorphic": {
+   "cost": [
+    0.5627,
+    0.2264
+   ],
+   "accuracy": [
+    0.5821,
+    0.1134
+   ],
+   "n": 26303.6
+  },
+  "majority|within_shared|neuron|region4|higher_order": {
+   "cost": [
+    1.019,
+    0.0058
+   ],
+   "accuracy": [
+    0.0,
+    0.0001
+   ],
+   "n": 5292.4
+  },
+  "majority|within_shared|neuron|region4|motor_periphery": {
+   "cost": [
+    1.4801,
+    0.117
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 1556.4
+  },
+  "majority|within_shared|neuron|region4|optic_lobe": {
+   "cost": [
+    0.2805,
+    0.3088
+   ],
+   "accuracy": [
+    0.8315,
+    0.1509
+   ],
+   "n": 18581.8
+  },
+  "majority|within_shared|neuron|region4|sensory_periphery": {
+   "cost": [
+    1.72,
+    0.0507
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 967.2
+  },
+  "majority|within_shared|type|all|all": {
+   "cost": [
+    1.1153,
+    0.0112
+   ],
+   "accuracy": [
+    0.0313,
+    0.0034
+   ],
+   "n": 26447.2
+  },
+  "majority|within_shared|type|dim|dimorphic": {
+   "cost": [
+    1.2818,
+    0.166
+   ],
+   "accuracy": [
+    0.0211,
+    0.0536
+   ],
+   "n": 114.2
+  },
+  "majority|within_shared|type|dim|isomorphic": {
+   "cost": [
+    1.1102,
+    0.0105
+   ],
+   "accuracy": [
+    0.0317,
+    0.0034
+   ],
+   "n": 26303.6
+  },
+  "majority|within_shared|type|region4|higher_order": {
+   "cost": [
+    1.0356,
+    0.005
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 5292.4
+  },
+  "majority|within_shared|type|region4|motor_periphery": {
+   "cost": [
+    1.3944,
+    0.0262
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 1556.4
+  },
+  "majority|within_shared|type|region4|optic_lobe": {
+   "cost": [
+    0.531,
+    0.05
+   ],
+   "accuracy": [
+    0.4838,
+    0.0428
+   ],
+   "n": 18581.8
+  },
+  "majority|within_shared|type|region4|sensory_periphery": {
+   "cost": [
+    1.2974,
+    0.0409
+   ],
+   "accuracy": [
+    0.0,
+    0.0
+   ],
+   "n": 967.2
+  },
+  "rf|cross|neuron|all|all": {
+   "cost": [
+    0.1433,
+    0.081
+   ],
+   "accuracy": [
+    0.9153,
+    0.0414
+   ],
+   "n": 27383.8
+  },
+  "rf|cross|neuron|dim|dimorphic": {
+   "cost": [
+    0.2054,
+    0.2036
+   ],
+   "accuracy": [
+    0.8881,
+    0.0991
+   ],
+   "n": 135.4
+  },
+  "rf|cross|neuron|dim|isomorphic": {
+   "cost": [
+    0.1433,
+    0.0823
+   ],
+   "accuracy": [
+    0.9154,
+    0.0419
+   ],
+   "n": 27221.0
+  },
+  "rf|cross|neuron|region4|higher_order": {
+   "cost": [
+    0.0389,
+    0.0127
+   ],
+   "accuracy": [
+    0.97,
+    0.0099
+   ],
+   "n": 5452.0
+  },
+  "rf|cross|neuron|region4|motor_periphery": {
+   "cost": [
+    0.5107,
+    0.1184
+   ],
+   "accuracy": [
+    0.7277,
+    0.0575
+   ],
+   "n": 1281.0
+  },
+  "rf|cross|neuron|region4|optic_lobe": {
+   "cost": [
+    0.134,
+    0.1057
+   ],
+   "accuracy": [
+    0.9186,
+    0.0545
+   ],
+   "n": 19610.6
+  },
+  "rf|cross|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.3992,
+    0.1155
+   ],
+   "accuracy": [
+    0.7963,
+    0.0578
+   ],
+   "n": 988.8
+  },
+  "rf|cross|type|all|all": {
+   "cost": [
+    0.173,
+    0.0179
+   ],
+   "accuracy": [
+    0.903,
+    0.0087
+   ],
+   "n": 27383.8
+  },
+  "rf|cross|type|dim|dimorphic": {
+   "cost": [
+    0.3558,
+    0.2791
+   ],
+   "accuracy": [
+    0.8211,
+    0.1405
+   ],
+   "n": 135.4
+  },
+  "rf|cross|type|dim|isomorphic": {
+   "cost": [
+    0.1679,
+    0.018
+   ],
+   "accuracy": [
+    0.9054,
+    0.0087
+   ],
+   "n": 27221.0
+  },
+  "rf|cross|type|region4|higher_order": {
+   "cost": [
+    0.0416,
+    0.0102
+   ],
+   "accuracy": [
+    0.9741,
+    0.0057
+   ],
+   "n": 5452.0
+  },
+  "rf|cross|type|region4|motor_periphery": {
+   "cost": [
+    0.4424,
+    0.0374
+   ],
+   "accuracy": [
+    0.7682,
+    0.0205
+   ],
+   "n": 1281.0
+  },
+  "rf|cross|type|region4|optic_lobe": {
+   "cost": [
+    0.2024,
+    0.0298
+   ],
+   "accuracy": [
+    0.8222,
+    0.023
+   ],
+   "n": 19610.6
+  },
+  "rf|cross|type|region4|sensory_periphery": {
+   "cost": [
+    0.3201,
+    0.0496
+   ],
+   "accuracy": [
+    0.8353,
+    0.0262
+   ],
+   "n": 988.8
+  },
+  "rf|unmatched|neuron|all|all": {
+   "cost": [
+    0.1792,
+    0.0062
+   ],
+   "accuracy": [
+    0.8644,
+    0.0026
+   ],
+   "n": 7177.0
+  },
+  "rf|unmatched|neuron|dim|dimorphic": {
+   "cost": [
+    0.0386,
+    0.0072
+   ],
+   "accuracy": [
+    0.9614,
+    0.0072
+   ],
+   "n": 88.0
+  },
+  "rf|unmatched|neuron|dim|isomorphic": {
+   "cost": [
+    0.2054,
+    0.0073
+   ],
+   "accuracy": [
+    0.8409,
+    0.0031
+   ],
+   "n": 5692.0
+  },
+  "rf|unmatched|neuron|dim|sex_specific": {
+   "cost": [
+    0.0383,
+    0.0029
+   ],
+   "accuracy": [
+    0.9789,
+    0.0017
+   ],
+   "n": 1227.0
+  },
+  "rf|unmatched|neuron|region4|higher_order": {
+   "cost": [
+    0.0341,
+    0.0019
+   ],
+   "accuracy": [
+    0.9761,
+    0.0015
+   ],
+   "n": 4600.0
+  },
+  "rf|unmatched|neuron|region4|motor_periphery": {
+   "cost": [
+    0.4927,
+    0.0221
+   ],
+   "accuracy": [
+    0.6152,
+    0.0082
+   ],
+   "n": 1631.0
+  },
+  "rf|unmatched|neuron|region4|optic_lobe": {
+   "cost": [
+    0.2886,
+    0.0197
+   ],
+   "accuracy": [
+    0.7718,
+    0.0187
+   ],
+   "n": 498.0
+  },
+  "rf|unmatched|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.3013,
+    0.0348
+   ],
+   "accuracy": [
+    0.8232,
+    0.0191
+   ],
+   "n": 273.0
+  },
+  "rf|unmatched|type|all|all": {
+   "cost": [
+    0.2123,
+    0.0077
+   ],
+   "accuracy": [
+    0.8651,
+    0.0037
+   ],
+   "n": 7177.0
+  },
+  "rf|unmatched|type|dim|dimorphic": {
+   "cost": [
+    0.058,
+    0.0082
+   ],
+   "accuracy": [
+    0.942,
+    0.0082
+   ],
+   "n": 88.0
+  },
+  "rf|unmatched|type|dim|isomorphic": {
+   "cost": [
+    0.2339,
+    0.0089
+   ],
+   "accuracy": [
+    0.8483,
+    0.0043
+   ],
+   "n": 5692.0
+  },
+  "rf|unmatched|type|dim|sex_specific": {
+   "cost": [
+    0.0791,
+    0.0064
+   ],
+   "accuracy": [
+    0.9593,
+    0.0033
+   ],
+   "n": 1227.0
+  },
+  "rf|unmatched|type|region4|higher_order": {
+   "cost": [
+    0.0513,
+    0.0012
+   ],
+   "accuracy": [
+    0.9664,
+    0.0012
+   ],
+   "n": 4600.0
+  },
+  "rf|unmatched|type|region4|motor_periphery": {
+   "cost": [
+    0.418,
+    0.0224
+   ],
+   "accuracy": [
+    0.7246,
+    0.01
+   ],
+   "n": 1631.0
+  },
+  "rf|unmatched|type|region4|optic_lobe": {
+   "cost": [
+    0.719,
+    0.0499
+   ],
+   "accuracy": [
+    0.5817,
+    0.0272
+   ],
+   "n": 498.0
+  },
+  "rf|unmatched|type|region4|sensory_periphery": {
+   "cost": [
+    0.3462,
+    0.0402
+   ],
+   "accuracy": [
+    0.8193,
+    0.0203
+   ],
+   "n": 273.0
+  },
+  "rf|within|neuron|all|all": {
+   "cost": [
+    0.1535,
+    0.1213
+   ],
+   "accuracy": [
+    0.9081,
+    0.0629
+   ],
+   "n": 27848.2
+  },
+  "rf|within|neuron|dim|dimorphic": {
+   "cost": [
+    0.2254,
+    0.2724
+   ],
+   "accuracy": [
+    0.8826,
+    0.1044
+   ],
+   "n": 130.4
+  },
+  "rf|within|neuron|dim|isomorphic": {
+   "cost": [
+    0.1537,
+    0.1235
+   ],
+   "accuracy": [
+    0.9079,
+    0.0641
+   ],
+   "n": 27613.0
+  },
+  "rf|within|neuron|dim|sex_specific": {
+   "cost": [
+    0.1696,
+    0.13
+   ],
+   "accuracy": [
+    0.9037,
+    0.0639
+   ],
+   "n": 54.0
+  },
+  "rf|within|neuron|region4|higher_order": {
+   "cost": [
+    0.0617,
+    0.0109
+   ],
+   "accuracy": [
+    0.9527,
+    0.0073
+   ],
+   "n": 6032.0
+  },
+  "rf|within|neuron|region4|motor_periphery": {
+   "cost": [
+    0.4459,
+    0.0359
+   ],
+   "accuracy": [
+    0.7388,
+    0.0251
+   ],
+   "n": 1924.0
+  },
+  "rf|within|neuron|region4|optic_lobe": {
+   "cost": [
+    0.1412,
+    0.1704
+   ],
+   "accuracy": [
+    0.9159,
+    0.0881
+   ],
+   "n": 18752.2
+  },
+  "rf|within|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.2687,
+    0.0593
+   ],
+   "accuracy": [
+    0.8597,
+    0.0303
+   ],
+   "n": 1083.8
+  },
+  "rf|within|type|all|all": {
+   "cost": [
+    0.2307,
+    0.0127
+   ],
+   "accuracy": [
+    0.8537,
+    0.0066
+   ],
+   "n": 27848.2
+  },
+  "rf|within|type|dim|dimorphic": {
+   "cost": [
+    0.3241,
+    0.263
+   ],
+   "accuracy": [
+    0.8297,
+    0.1173
+   ],
+   "n": 130.4
+  },
+  "rf|within|type|dim|isomorphic": {
+   "cost": [
+    0.2274,
+    0.012
+   ],
+   "accuracy": [
+    0.8548,
+    0.0062
+   ],
+   "n": 27613.0
+  },
+  "rf|within|type|dim|sex_specific": {
+   "cost": [
+    0.3318,
+    0.2347
+   ],
+   "accuracy": [
+    0.8266,
+    0.115
+   ],
+   "n": 54.0
+  },
+  "rf|within|type|region4|higher_order": {
+   "cost": [
+    0.0678,
+    0.0111
+   ],
+   "accuracy": [
+    0.9558,
+    0.0068
+   ],
+   "n": 6032.0
+  },
+  "rf|within|type|region4|motor_periphery": {
+   "cost": [
+    0.4953,
+    0.0293
+   ],
+   "accuracy": [
+    0.6809,
+    0.0177
+   ],
+   "n": 1924.0
+  },
+  "rf|within|type|region4|optic_lobe": {
+   "cost": [
+    0.315,
+    0.0402
+   ],
+   "accuracy": [
+    0.7987,
+    0.0239
+   ],
+   "n": 18752.2
+  },
+  "rf|within|type|region4|sensory_periphery": {
+   "cost": [
+    0.2686,
+    0.0438
+   ],
+   "accuracy": [
+    0.858,
+    0.021
+   ],
+   "n": 1083.8
+  },
+  "rf|within_shared|neuron|all|all": {
+   "cost": [
+    0.1469,
+    0.1273
+   ],
+   "accuracy": [
+    0.9144,
+    0.0657
+   ],
+   "n": 26447.2
+  },
+  "rf|within_shared|neuron|dim|dimorphic": {
+   "cost": [
+    0.2575,
+    0.3116
+   ],
+   "accuracy": [
+    0.8715,
+    0.1161
+   ],
+   "n": 114.2
+  },
+  "rf|within_shared|neuron|dim|isomorphic": {
+   "cost": [
+    0.1469,
+    0.1291
+   ],
+   "accuracy": [
+    0.9144,
+    0.0667
+   ],
+   "n": 26303.6
+  },
+  "rf|within_shared|neuron|region4|higher_order": {
+   "cost": [
+    0.0569,
+    0.0125
+   ],
+   "accuracy": [
+    0.9553,
+    0.009
+   ],
+   "n": 5292.4
+  },
+  "rf|within_shared|neuron|region4|motor_periphery": {
+   "cost": [
+    0.4178,
+    0.0403
+   ],
+   "accuracy": [
+    0.7914,
+    0.0183
+   ],
+   "n": 1556.4
+  },
+  "rf|within_shared|neuron|region4|optic_lobe": {
+   "cost": [
+    0.1384,
+    0.1715
+   ],
+   "accuracy": [
+    0.9178,
+    0.0885
+   ],
+   "n": 18581.8
+  },
+  "rf|within_shared|neuron|region4|sensory_periphery": {
+   "cost": [
+    0.2659,
+    0.0717
+   ],
+   "accuracy": [
+    0.8637,
+    0.0366
+   ],
+   "n": 967.2
+  },
+  "rf|within_shared|type|all|all": {
+   "cost": [
+    0.1778,
+    0.0138
+   ],
+   "accuracy": [
+    0.9002,
+    0.0072
+   ],
+   "n": 26447.2
+  },
+  "rf|within_shared|type|dim|dimorphic": {
+   "cost": [
+    0.3841,
+    0.3092
+   ],
+   "accuracy": [
+    0.8011,
+    0.1392
+   ],
+   "n": 114.2
+  },
+  "rf|within_shared|type|dim|isomorphic": {
+   "cost": [
+    0.1726,
+    0.0142
+   ],
+   "accuracy": [
+    0.9026,
+    0.0073
+   ],
+   "n": 26303.6
+  },
+  "rf|within_shared|type|region4|higher_order": {
+   "cost": [
+    0.0551,
+    0.0117
+   ],
+   "accuracy": [
+    0.9643,
+    0.007
+   ],
+   "n": 5292.4
+  },
+  "rf|within_shared|type|region4|motor_periphery": {
+   "cost": [
+    0.4203,
+    0.0335
+   ],
+   "accuracy": [
+    0.786,
+    0.0184
+   ],
+   "n": 1556.4
+  },
+  "rf|within_shared|type|region4|optic_lobe": {
+   "cost": [
+    0.1758,
+    0.027
+   ],
+   "accuracy": [
+    0.8375,
+    0.0224
+   ],
+   "n": 18581.8
+  },
+  "rf|within_shared|type|region4|sensory_periphery": {
+   "cost": [
+    0.3224,
+    0.0542
+   ],
+   "accuracy": [
+    0.8321,
+    0.0251
+   ],
+   "n": 967.2
+  }
+ }
+}

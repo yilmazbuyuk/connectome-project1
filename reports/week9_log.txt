@@ -1,0 +1,30 @@
+seeds (0, 1, 2); folds 5; sklearn 1.9.1; numpy 2.5.3; pandas 2.3.3; config 0.2.0
+tau=10: FAFB 139,241 trainable; MaleCNS matched 136,919, unmatched 7,177, efferent 16; 100 features
+  tau=10 seed=0 fold=0 done (3.7 min; about 52 min left for this tau)
+  tau=10 seed=0 fold=1 done (7.9 min; about 51 min left for this tau)
+  tau=10 seed=0 fold=2 done (12.5 min; about 50 min left for this tau)
+  tau=10 seed=0 fold=3 done (16.5 min; about 45 min left for this tau)
+  tau=10 seed=0 fold=4 done (20.3 min; about 41 min left for this tau)
+  tau=10 seed=1 fold=0 done (25.7 min; about 39 min left for this tau)
+  tau=10 seed=1 fold=1 done (30.8 min; about 35 min left for this tau)
+  tau=10 seed=1 fold=2 done (35.5 min; about 31 min left for this tau)
+  tau=10 seed=1 fold=3 done (42.1 min; about 28 min left for this tau)
+  tau=10 seed=1 fold=4 done (46.7 min; about 23 min left for this tau)
+  tau=10 seed=2 fold=0 done (51.2 min; about 19 min left for this tau)
+  tau=10 seed=2 fold=1 done (54.8 min; about 14 min left for this tau)
+  tau=10 seed=2 fold=2 done (58.2 min; about 9 min left for this tau)
+  tau=10 seed=2 fold=3 done (61.3 min; about 4 min left for this tau)
+  tau=10 seed=2 fold=4 done (64.5 min; about 0 min left for this tau)
+tau=5: FAFB 139,241 trainable; MaleCNS matched 136,919, unmatched 7,177, efferent 16; 100 features
+  tau=5 seed=0 fold=0 done (2.6 min; about 10 min left for this tau)
+  tau=5 seed=0 fold=1 done (4.7 min; about 7 min left for this tau)
+  tau=5 seed=0 fold=2 done (7.0 min; about 5 min left for this tau)
+  tau=5 seed=0 fold=3 done (8.7 min; about 2 min left for this tau)
+  tau=5 seed=0 fold=4 done (10.6 min; about 0 min left for this tau)
+tau=15: FAFB 139,241 trainable; MaleCNS matched 136,919, unmatched 7,177, efferent 16; 100 features
+  tau=15 seed=0 fold=0 done (1.7 min; about 7 min left for this tau)
+  tau=15 seed=0 fold=1 done (3.3 min; about 5 min left for this tau)
+  tau=15 seed=0 fold=2 done (6.9 min; about 5 min left for this tau)
+  tau=15 seed=0 fold=3 done (8.5 min; about 2 min left for this tau)
+  tau=15 seed=0 fold=4 done (10.3 min; about 0 min left for this tau)
+figures -> figures\week9

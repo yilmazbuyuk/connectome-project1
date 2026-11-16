@@ -1,0 +1,19 @@
+{\footnotesize
+\begin{tabular}{@{}p{0.27\columnwidth}p{0.68\columnwidth}@{}}
+\toprule
+Item & Choice (lock note v2, unchanged; no deviation)\\
+\midrule
+Target & \texttt{super\_class}, 10 levels; \texttt{unknown} out; MaleCNS \texttt{efferent} (16) scored apart\\
+Split & whole types held out; 5 folds $\times$ seeds 0,1,2; key FAFB \texttt{cell\_type} = MaleCNS \texttt{flywire\_type}; splits in \texttt{reports/week9\_splits.csv}\\
+Threshold & FAFB $\tau=10$; sensitivity 5, 15 (seed 0)\\
+Cross-dataset & MaleCNS $\tau=\mathrm{round}(1.484\,\tau)$; totals $\div 1.484$\\
+Features & $n_{\text{in}}, n_{\text{out}}$ (all synapses / brain-part connections), degrees, 2$\times$45 neuropil shares; L/R merged\\
+Population & all brain neurons (FAFB 139,255; MaleCNS 144,414)\\
+Missing values & no input/output: shares 0, degree 0, flags\\
+Region & shared alphabetical ties; 4 anatomical groups\\
+Weighting & type-weighted headline; neuron-weighted beside\\
+Prior shift & unadjusted headline; EM priors as check\\
+Floor & FAFB left$\leftrightarrow$right, same folds\\
+Tuning & inner grouped 3-fold CV on log-loss; RF tuned with 100 trees, refit with 500\\
+\bottomrule
+\end{tabular}}

@@ -97,3 +97,16 @@ Scale: MaleCNS has 1.28× the synapses per edge and 1.39× the edges per neuron 
 - FAFB sensory_ascending types are almost never matched in MaleCNS (2.3% of neurons, A6), and MaleCNS has 8,918 brain sensory neurons against 16,904 in FAFB. Both are reported to the group as possible naming / scope differences.
 - Disclosure: the D18 pairing proposal in reports/eda_A.md suits Project 1.
 - Project 1 lock note: submitted on UZEM; no model has been run before its approval.
+
+## Week 9 — naive result (tag `week9`)
+
+Lock note v2 is in force with no deviation (`reports/lock_note_v2.pdf`): target `super_class` (10 levels), whole cell types held out (5 folds × seeds 0, 1, 2; `reports/week9_splits.csv`), FAFB τ = 10 (sensitivity 5 and 15, seed 0), MaleCNS τ = round(1.484 τ) and synapse totals ÷ 1.484, features = all-synapse totals, degrees and neuropil shares (L/R merged), type-weighted metrics as headline, flow cost matrix 1/2/5, within-animal floor FAFB left ↔ right, unadjusted prior with an EM check.
+
+```powershell
+pip install -r requirements.txt               # pinned versions
+python -m src.features                        # feature tables, tau 10 / 5 / 15 (cache)
+python -m src.week9                           # naive models, metrics, figures (1-3 h)
+jupyter nbconvert --to notebook --execute --inplace notebooks/week9_naive.ipynb
+```
+
+Outputs: `reports/week9_results.json`, `reports/week9_metrics.csv`, `reports/week9_hparams.csv`, `reports/week9_splits.csv`, `reports/week9_log.txt`, `figures/week9/fig*.png`. Seeds are fixed and printed in the log. Everything runs from `data/cache/`, with no network access.
